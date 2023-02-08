@@ -15,10 +15,13 @@ body:
       label: Summary
       description: Brief summary of the User Story based on the Feature that it is part of!
       value: |
-        User Story Summary
+        ***User Story Summary:***
         **As a** *[user concerned by the story]*
         **I want** *[goal of the story]*
         **so that** *[reason for the story]*
+        
+        ***User Story Description:***
+        A detailed description of the User Story
     validations:
       required: true
   - type: textarea
