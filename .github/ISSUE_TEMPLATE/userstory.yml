@@ -1,0 +1,35 @@
+name: User Story
+description: Submit a User Story
+title: "[UserStory]: "
+labels: user story
+assignees:
+  - leovipin1
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this User Story Form!
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: Brief summary of the User Story based on the Feature that it is part of!
+      value: |
+        User Story Summary
+        **As a** *[user concerned by the story]*
+        **I want** *[goal of the story]*
+        **so that** *[reason for the story]*
+    validations:
+      required: true
+  - type: textarea
+    id: tasks
+    attributes:
+      label: Tasks required for this User Story
+      description: Kindly specify the list of Tasks that will be worked upon for this User Story to be Completed
+      placeholder: |
+        List of Tasks in Tasklist format
+        - [ ] #3 ex.
+        - [ ] #15 ex.
+        - [ ] #17 ex.
+    validations:
+      required: true
