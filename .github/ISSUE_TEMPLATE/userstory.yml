@@ -9,7 +9,7 @@ body:
     attributes:
       value: |
         Thanks for taking the time to fill out this User Story Form!
-  - type: input
+  - type: textarea
     id: feature
     attributes:
       label: Related Feature
