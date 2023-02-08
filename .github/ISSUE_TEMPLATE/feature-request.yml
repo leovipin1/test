@@ -23,4 +23,7 @@ body:
       label: User Stories required for this Feature
       description: Kindly specify the list of User Stories that will be worked upon for this feature to be Completed
       placeholder: |
-        Kindly specify the User Story Issues that will be tracked by this Feature
+        List of User Stories in Tasklist format
+        - [ ] #3 ex.
+        - [ ] #15 ex.
+        - [ ] #17 ex.
