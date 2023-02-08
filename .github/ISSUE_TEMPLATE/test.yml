@@ -1,62 +1,97 @@
-name: Bug Report
-description: File a bug report
-title: "[Bug]: "
-labels: ["bug", "triage"]
-assignees:
-  - octocat
+name: 🐛🐛🐛🐛🐛🐛🐛 Bug Report
+description: A example of using template and build forms
+title: '[Bug]: '
 body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to fill out this bug report!
-  - type: input
-    id: contact
-    attributes:
-      label: Contact Details
-      description: How can we get in touch with you if we need more info?
-      placeholder: ex. email@example.com
-    validations:
-      required: false
-  - type: textarea
-    id: what-happened
-    attributes:
-      label: What happened?
-      description: Also tell us, what did you expect to happen?
-      placeholder: Tell us what you see!
-      value: "A bug happened!"
-    validations:
-      required: true
-  - type: dropdown
-    id: version
-    attributes:
-      label: Version
-      description: What version of our software are you running?
-      options:
-        - 1.0.2 (Default)
-        - 1.0.3 (Edge)
-    validations:
-      required: true
-  - type: dropdown
-    id: browsers
-    attributes:
-      label: What browsers are you seeing the problem on?
-      multiple: true
-      options:
-        - Firefox
-        - Chrome
-        - Safari
-        - Microsoft Edge
-  - type: textarea
-    id: logs
-    attributes:
-      label: Relevant log output
-      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
-      render: shell
+        This form has a really long dropdown making it unreadable and hard to maintain
+        Using the `template` option allows us to work on a clean and readable file making DX better
   - type: checkboxes
     id: terms
     attributes:
-      label: Code of Conduct
-      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com)
+      label: CheckList
+      description: By submitting this issue, you agree to follow our [Code of Conduct]()
       options:
         - label: I agree to follow this project's Code of Conduct
           required: true
+  - type: dropdown
+    id: static
+    attributes:
+      label: Static dropdown
+      description: Untouched by action
+      options:
+        - always
+        - here
+    validations:
+      required: true
+  - type: dropdown
+    id: long
+    attributes:
+      label: A long list
+      description: Generated
+      options:
+        -
+    validations:
+      required: true
+  - type: dropdown
+    id: long2
+    attributes:
+      label: Another long list
+      description: Generated
+      options:
+        -
+    validations:
+      required: true
+  - type: dropdown
+    id: year_end
+    attributes:
+      label: Updating in a PR
+      description: '[Creating a PR](https://github.com/ShaMan123/gha-form-dropdown-options#creating-a-pr)'
+      options:
+        -
+    validations:
+      required: true
+  - type: dropdown
+    id: _subs
+    attributes:
+      label: Recursive
+      description: 'Uses [Dynamic Substitution](https://github.com/ShaMan123/gha-form-dropdown-options#dynamic-substitution)'
+      options:
+        - 2022-09-27 00:00
+        - 2022-09-28 08:00
+        - 2022-09-29 12:00
+        - 2022-09-30 16:00
+        - 2022-10-01 20:00
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps To Reproduce
+      value: |
+        1. 
+        2. 
+        3.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected Behavior
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual Behavior
+      description: Provide screenshots/screencasts if relevant
+    validations:
+      required: true
+  - type: textarea
+    id: error
+    attributes:
+      label: Error Message & Stack Trace
+      description: Provide logging outputs/errors if relevant
+    validations:
+      required: false
