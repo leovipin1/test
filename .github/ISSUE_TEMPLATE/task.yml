@@ -1,0 +1,26 @@
+name: Task
+description: Submit a Task
+title: "[Task]: "
+labels: task
+assignees:
+  - leovipin1
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this Task Form!
+  - type: textarea
+    id: userstory
+    attributes:
+      label: Related User Story
+      description: Specify the User Story to which this Task is Related
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Brief summary of the Task based on the User Story that it is part of!
+      placeholder: Describe the Task in Detail
+    validations:
+      required: true
