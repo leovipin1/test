@@ -27,3 +27,5 @@ body:
         - [ ] #3 ex.
         - [ ] #15 ex.
         - [ ] #17 ex.
+    validations:
+      required: true
