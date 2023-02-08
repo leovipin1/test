@@ -29,8 +29,3 @@ body:
         - [ ] #17 ex.
     validations:
       required: true
-  - type: submit
-    id: submit
-    attributes:
-      value: Submit Feature Request
-      disabled: input[id='description'] == '' || input[id='userstories'] == ''
