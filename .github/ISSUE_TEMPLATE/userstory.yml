@@ -9,6 +9,13 @@ body:
     attributes:
       value: |
         Thanks for taking the time to fill out this User Story Form!
+  - type: input
+    id: feature
+    attributes:
+      label: Related Feature
+      description: Specify the Feature to which this User Story is Related
+    validations:
+      required: true
   - type: textarea
     id: summary
     attributes:
