@@ -19,7 +19,7 @@ jobs:
     name: Move to In Progress Column
     runs-on: ubuntu-latest
     steps:
-      - uses: kin/gh-action-move-issue-to-column@1.0
+      - uses: kin/gh-action-move-issue-to-column@main
         with:
           access-token: "#{{ secrets.ADD_TO_PROJECT_PAT }}"
           project-name: "test"
