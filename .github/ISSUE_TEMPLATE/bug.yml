@@ -1,0 +1,64 @@
+name: Bug
+description: Submit a Bug Report
+title: "🐞 [Bug]: "
+labels: bug, incomplete
+assignees:
+  - leovipin1
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this Bug Report Form!
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Provide a more detailed introduction to the issue itself, and why you consider it to be a bug
+      placeholder: Description of the Bug
+    validations:
+      required: true
+  - type: textarea
+    id: expectedbehavior
+    attributes:
+      label: Expected Behavior
+      description: Tell us what should happen
+      placeholder: Description of the Expected Behavior
+    validations:
+      required: true
+  - type: textarea
+    id: actualbehavior
+    attributes:
+      label: Actual Behavior
+      description: Tell us what happens instead
+      placeholder: Description of the Actual Behvaior
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to Reproduce
+      description: Provide a link to a live example, or an unambiguous set of steps to reproduce this bug
+      placeholder: |
+        Steps to Reproduce
+        1.
+        2.
+        3.
+    validations:
+      required: true
+  - type: textarea
+    id: code
+    attributes:
+      label: Error Code or Log
+      description: Include code to reproduce, if relevant or the Error Output
+      placeholder: Error Code or Logs generated
+      render: VBA
+    validations:
+      required: false
+  - type: input
+    id: errorscreenshot
+    attributes:
+      label: Error Screenshot
+      description: Provide the Screenshot of the Error
+      placeholder: Enter the Uploaded Screenshot Link
+    validations:
+      required: true
