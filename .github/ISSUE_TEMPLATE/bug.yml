@@ -17,6 +17,7 @@ body:
       value: |
         Description of the Bug
         
+        
         ---
     validations:
       required: true
