@@ -1,5 +1,5 @@
 name: User Story
-description: Submit a User Story
+description: Submit a User Story!!!!!
 title: "📇 [UserStory]: "
 labels: user story, incomplete
 assignees:
@@ -12,7 +12,7 @@ body:
     id: feature
     attributes:
       label: Related Feature
-      description: Specify the Feature to which this User Story is Related
+      description: Specify the Feature to which this User Story is Related!!!!!
       placeholder: Enter the User Story Number
       value: |
         - #[Feature]
@@ -51,7 +51,7 @@ body:
     id: tasks
     attributes:
       label: Related Tasks
-      description: The list of Tasks for this User Story
+      description: The list of Tasks for this User Story!!!!!
       value: |
         List of Tasks
         - [ ] #[Task]
