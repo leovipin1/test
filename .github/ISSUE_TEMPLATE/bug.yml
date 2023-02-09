@@ -77,33 +77,27 @@ body:
     attributes:
       value: ---
   - type: textarea
-    id: code
+    id: errorscreenshot
     attributes:
-      label: Error Code or Log
-      description: Include code to reproduce, if relevant or the Error Output
-      placeholder: Error Code or Logs generated
-      render: VBA
+      label: Error Screenshot
+      description: Provide the Screenshot of the Error!!!!!
+      placeholder: Enter the Uploaded Screenshot Link
+      value: |
+        Place the Screenshot Link Here
+        
+        
+        ---
     validations:
       required: false
   - type: markdown
     attributes:
       value: ---
   - type: textarea
-    id: seperator
+    id: code
     attributes:
-      label:  
-      value: ---
+      label: Error Code or Log
+      description: Include code to reproduce, if relevant or the Error Output!!!!!
+      placeholder: Error Code or Logs generated
+      render: VBA
     validations:
-      required: true
-  - type: markdown
-    attributes:
-      value: ---
-  - type: input
-    id: errorscreenshot
-    attributes:
-      label: Error Screenshot
-      description: Provide the Screenshot of the Error
-      placeholder: Enter the Uploaded Screenshot Link!!!!!
-    validations:
-      required: true
-  
+      required: false
