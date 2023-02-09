@@ -15,6 +15,10 @@ body:
       label: Description
       description: Provide a more detailed introduction to the issue itself, and why you consider it to be a bug
       placeholder: Description of the Bug
+      value: |
+        Start Here
+        
+        ---
     validations:
       required: true
   - type: markdown
