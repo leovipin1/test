@@ -1,7 +1,7 @@
 name: Task
 description: Submit a Task
 title: "📝 [Task]: "
-labels: task
+labels: task, incomplete
 assignees:
   - leovipin1
 body:
