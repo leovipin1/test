@@ -1,5 +1,5 @@
 name: Feature Request
-description: Submit a Feature Request
+description: Submit a Feature Request!!!!!
 title: "✨ [Feature]: "
 labels: feature, incomplete
 assignees:
@@ -7,12 +7,12 @@ assignees:
 body:
   - type: markdown
     attributes:
-      value: Thanks for taking the time to fill out this Feature Request Form!
+      value: Thanks for taking the time to fill out this Feature Request Form!!!!!
   - type: textarea
     id: description
     attributes:
       label: Description
-      description: Detailed Description of the Feature that is being requested
+      description: Detailed Description of the Feature that is being requested!!!!!
       placeholder: Tell us what you want to see!
       value: |
         Tell us what you want to see! Start Here
@@ -28,7 +28,7 @@ body:
     id: userstories
     attributes:
       label: Related User Stories
-      description: The list of User Stories for this Feature
+      description: The list of User Stories for this Feature!!!!!
       value: |
         List of User Stories
         - [ ] #[User Story]
