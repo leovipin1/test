@@ -1,5 +1,5 @@
 name: Bug
-description: Submit a Bug Report
+description: Submit a Bug Report!!!!!
 title: "🐞 [Bug]: "
 labels: bug, incomplete
 assignees:
@@ -7,16 +7,15 @@ assignees:
 body:
   - type: markdown
     attributes:
-      value: |
-        Thanks for taking the time to fill out this Bug Report Form!
+      value: Thanks for taking the time to fill out this Bug Report Form!!!!!
   - type: textarea
     id: description
     attributes:
       label: Description
-      description: Provide a more detailed introduction to the issue itself, and why you consider it to be a bug
+      description: Provide a more detailed introduction to the issue itself, and why you consider it to be a bug!!!!!
       placeholder: Description of the Bug
       value: |
-        Start Here
+        Description of the Bug
         
         ---
     validations:
@@ -28,30 +27,54 @@ body:
     id: expectedbehavior
     attributes:
       label: Expected Behavior
-      description: Tell us what should happen
+      description: Tell us what should happen!!!!!
       placeholder: Description of the Expected Behavior
+      value: |
+        Expected Behavior
+        
+        
+        ---
     validations:
       required: true
+  - type: markdown
+    attributes:
+      value: ---
   - type: textarea
     id: actualbehavior
     attributes:
       label: Actual Behavior
-      description: Tell us what happens instead
+      description: Tell us what happens instead!!!!!
       placeholder: Description of the Actual Behvaior
+      value: |
+        Actual Behavior
+        
+        
+        ---
     validations:
       required: true
+  - type: markdown
+    attributes:
+      value: ---
   - type: textarea
     id: steps
     attributes:
       label: Steps to Reproduce
-      description: Provide a link to a live example, or an unambiguous set of steps to reproduce this bug
+      description: Provide a link to a live example, or an unambiguous set of steps to reproduce this bug!!!!!
       placeholder: |
         Steps to Reproduce
-        1.
-        2.
-        3.
+      value: |
+        Steps to Reproduce
+        1. Step 1
+        2. Step 2
+        3. Step 3
+        
+        
+        ---
     validations:
       required: true
+  - type: markdown
+    attributes:
+      value: ---
   - type: textarea
     id: code
     attributes:
@@ -61,11 +84,25 @@ body:
       render: VBA
     validations:
       required: false
+  - type: markdown
+    attributes:
+      value: ---
+  - type: textarea
+    id: seperator
+    attributes:
+      label: Seperator
+      value: ---
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: ---
   - type: input
     id: errorscreenshot
     attributes:
       label: Error Screenshot
       description: Provide the Screenshot of the Error
-      placeholder: Enter the Uploaded Screenshot Link
+      placeholder: Enter the Uploaded Screenshot Link!!!!!
     validations:
       required: true
+  
