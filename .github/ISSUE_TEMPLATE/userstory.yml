@@ -1,26 +1,35 @@
 name: User Story
-description: Submit a User Story
-title: "[UserStory]: "
-labels: user story
+description: Submit a User Story!!!!!
+title: "📇 [UserStory]: "
+labels: user story, incomplete
 assignees:
   - leovipin1
 body:
   - type: markdown
     attributes:
-      value: |
-        Thanks for taking the time to fill out this User Story Form!
+      value: Thanks for taking the time to fill out this User Story Form!
   - type: textarea
     id: feature
     attributes:
       label: Related Feature
-      description: Specify the Feature to which this User Story is Related
+      description: Specify the Feature to which this User Story is Related!!!!!
+      placeholder: Enter the User Story Number
+      value: |
+        - #[Feature]
+        
+        
+        ---
     validations:
       required: true
-  - type: textarea
-    id: summary
+  - type: markdown
     attributes:
-      label: Summary
-      description: Brief summary of the User Story based on the Feature that it is part of!
+      value: ---
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Sumamry of the User Story!!!!!
+      placeholder: Summary of the User Story
       value: |
         ########################################
         ***User Story Summary:***
@@ -33,17 +42,20 @@ body:
         
         ***User Story Description:***
         A detailed description of the User Story
+        
+        
+        ---
     validations:
       required: true
   - type: textarea
     id: tasks
     attributes:
-      label: Tasks required for this User Story
-      description: Kindly specify the list of Tasks that will be worked upon for this User Story to be Completed
-      placeholder: |
-        List of Tasks in Tasklist format
-        - [ ] #3 ex.
-        - [ ] #15 ex.
-        - [ ] #17 ex.
+      label: Related Tasks
+      description: The list of Tasks for this User Story!!!!!
+      value: |
+        List of Tasks
+        - [ ] #[Task]
+        - [ ] #[Task]
+        - [ ] #[Task]
     validations:
       required: true
