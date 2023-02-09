@@ -1,5 +1,5 @@
 name: Task
-description: Submit a Task
+description: Submit a Task!!!!!
 title: "📝 [Task]: "
 labels: task, incomplete
 assignees:
@@ -7,12 +7,12 @@ assignees:
 body:
   - type: markdown
     attributes:
-      value: Thanks for taking the time to fill out this Task Form!
+      value: Thanks for taking the time to fill out this Task Form!!!!!
   - type: textarea
     id: userstory
     attributes:
       label: Related User Story
-      description: Specify the User Story to which this Task is Related
+      description: Specify the User Story to which this Task is Related!!!!!
       placeholder: Enter the User Story Number
       value: |
         - #[UserStory]
@@ -28,7 +28,7 @@ body:
     id: description
     attributes:
       label: Description
-      description: Detailed Description of what needs to be Achieved in this Task
+      description: Detailed Description of what needs to be Achieved in this Task!!!!!
       placeholder: Describe the Task in Detail
     validations:
       required: true
