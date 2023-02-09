@@ -1,31 +1,38 @@
 name: Feature Request
-description: Submit a Feature Request
-title: "[Feature]: "
-labels: feature
+description: Submit a Feature Request!!!!!
+title: "✨ [Feature]: "
+labels: feature, incomplete
 assignees:
   - leovipin1
 body:
   - type: markdown
     attributes:
-      value: |
-        Thanks for taking the time to fill out this Feature Request Form!
+      value: Thanks for taking the time to fill out this Feature Request Form!!!!!
   - type: textarea
     id: description
     attributes:
       label: Description
-      description: Brief description of the feature that is being requested
+      description: Detailed Description of the Feature that is being requested!!!!!
       placeholder: Tell us what you want to see!
+      value: |
+        Tell us what you want to see! Start Here
+        
+        
+        ---
     validations:
       required: true
+  - type: markdown
+    attributes:
+      value: ---
   - type: textarea
     id: userstories
     attributes:
-      label: User Stories required for this Feature
-      description: Kindly specify the list of User Stories that will be worked upon for this feature to be Completed
-      placeholder: |
-        List of User Stories in Tasklist format
-        - [ ] #3 ex.
-        - [ ] #15 ex.
-        - [ ] #17 ex.
+      label: Related User Stories
+      description: The list of User Stories for this Feature!!!!!
+      value: |
+        List of User Stories
+        - [ ] #[User Story]
+        - [ ] #[User Story]
+        - [ ] #[User Story]
     validations:
       required: true
