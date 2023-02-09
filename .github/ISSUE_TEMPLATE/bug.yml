@@ -17,6 +17,9 @@ body:
       placeholder: Description of the Bug
     validations:
       required: true
+  - type: markdown
+    attributes:
+      value: ---
   - type: textarea
     id: expectedbehavior
     attributes:
