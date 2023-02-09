@@ -28,7 +28,7 @@ body:
     id: description
     attributes:
       label: Description
-      description: Detailed Description of what needs to be Acheived in this Task
+      description: Detailed Description of what needs to be Achieved in this Task
       placeholder: Describe the Task in Detail
     validations:
       required: true
