@@ -1,6 +1,8 @@
 name: Close-label
 on:
-  - pull_request
+  pull_request:
+    types:
+      - closed
 
 jobs:
   triage:
