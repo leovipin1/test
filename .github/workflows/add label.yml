@@ -1,17 +1,14 @@
-name: Add Label
+name: Label Commands
 on:
+  pull_request:
+    types: closed
   issues:
-    types:
-      - closed
-
+    types: closed
 jobs:
-  add-label:
-    name: Add Label
+  run:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: christianvuerings/add-labels@v1.1
+      - uses: wow-actions/label-commands@v1.1.0
         with:
-          labels: completed
-        env:
           GITHUB_TOKEN: ${{ secrets.ADD_TO_PROJECT_PAT }}
+          CONFIG_FILE: .github/label-commands.yml
