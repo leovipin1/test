@@ -1,7 +1,0 @@
-test:
-  Backlog:
-    - backlog
-  In Progress:
-    - 'in progress'
-  Done:
-    - completed
