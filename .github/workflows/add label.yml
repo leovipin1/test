@@ -1,15 +1,15 @@
-name: Project Card Event
+name: issue-automation
 
 on:
-  project_card:
-    types: [moved]
+  issues:
+    types: [closed]
 
 jobs:
-  triage:
-    name: Auto card labeler
+  automate-issues-labels:
     runs-on: ubuntu-latest
     steps:
-      - uses: technote-space/auto-card-labeler@v2
+      - name: initial labeling
+        uses: andymckay/labeler@master
         with:
-          GITHUB_TOKEN: ${{ secrets.ADD_TO_PROJECT_PAT }}
-          CONFIG_FILENAME: .github/label-commands.yml
+          add-labels: completed
+          repo-token: ${{ secrets.ADD_TO_PROJECT_PAT }}
