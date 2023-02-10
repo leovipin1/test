@@ -1,0 +1,34 @@
+name: Documentation
+description: Submit a Documentation Request!!!!!
+title: "📝 [Document]: "
+labels: document, incomplete
+assignees:
+  - leovipin1
+body:
+  - type: markdown
+    attributes:
+      value: Thanks for taking the time to fill out this Documentation Form!!!!!
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Describe the Information that is to be Documented!!!!!
+      placeholder: Describe the Information
+      value: |
+        Documentation Information
+        
+        
+        ---
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: ---
+  - type: input
+    id: filename
+    attributes:
+      label: File Name
+      description: Provide the Name of the File which is to be Updated!!!!!
+      placeholder: File Name
+    validations:
+      required: true
