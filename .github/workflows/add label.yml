@@ -1,14 +1,15 @@
-name: Label Commands
+name: Project Card Event
+
 on:
-  pull_request:
-    types: closed
-  issues:
-    types: closed
+  project_card:
+    types: [moved]
+
 jobs:
-  run:
+  triage:
+    name: Auto card labeler
     runs-on: ubuntu-latest
     steps:
-      - uses: wow-actions/label-commands@v1.1.0
+      - uses: technote-space/auto-card-labeler@v2
         with:
           GITHUB_TOKEN: ${{ secrets.ADD_TO_PROJECT_PAT }}
-          CONFIG_FILE: .github/label-commands.yml
+          CONFIG_FILENAME: .github/label-commands.yml
