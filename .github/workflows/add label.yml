@@ -3,6 +3,8 @@ name: issue-automation
 on:
   issues:
     types: [closed]
+  pull_request:
+    types: [closed]
 
 jobs:
   automate-issues-labels:
