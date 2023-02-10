@@ -3,5 +3,5 @@ test:
     - backlog
   In Progress:
     - 'in progress'
-  Done
+  Done:
     - completed
