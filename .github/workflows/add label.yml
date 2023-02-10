@@ -1,14 +1,17 @@
 name: Add Label
-
 on:
   issues:
-    types: closed
+    types:
+      - closed
 
 jobs:
-  add_label:
+  add-label:
+    name: Add Label
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@main
-      - uses: actions-ecosystem/action-add-labels@main
+      - uses: actions/checkout@v2
+      - uses: christianvuerings/add-labels@v1.1
         with:
           labels: completed
+        env:
+          GITHUB_TOKEN: ${{ secrets.ADD_TO_PROJECT_PAT }}
