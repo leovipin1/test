@@ -1,0 +1,11 @@
+name: Close-label
+on:
+- pull-request
+
+jobs:
+  triage:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: logerfo/close-label@master
+      with:
+        repo-token: ${{ secrets.ADD_TO_PROJECT_PAT }}
