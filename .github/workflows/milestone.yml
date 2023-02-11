@@ -9,7 +9,7 @@ jobs:
     steps:
       - uses: guguducken/milestone-add-action@v0.0.1
         with:
-          action-token: ${{ secrets.ACTION_TOKEN}}
+          action-token: ${{ secrets.ADD_TO_PROJECT_PAT }}
           co-milestones: >
             {
               "[Bug]":"bug",
