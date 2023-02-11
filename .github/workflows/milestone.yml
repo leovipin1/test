@@ -12,6 +12,6 @@ jobs:
           action-token: ${{ secrets.ACTION_TOKEN}}
           co-milestones: >
             {
-              "[BUG]":"bug",
-              "[feature]":"test"
+              "[Bug]":"bug",
+              "[Feature]":"test"
             }
