@@ -13,9 +13,9 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - uses: uses: mauroalderete/action-assign-labels@v1.4.2
+      - uses: mauroalderete/action-assign-labels@v1.4.2
         with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
+          github-token: ${{ secrets.ADD_TO_PROJECT_PAT }}
           conventional-commits: |
             conventional-commits:
               - type: 'fix'
