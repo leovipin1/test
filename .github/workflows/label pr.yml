@@ -20,7 +20,7 @@ jobs:
             conventional-commits:
               - type: 'fix'
                 nouns: 'bf:'
-                labels: ['bug']
-              - type: 'issue'
+                labels: 'bug'
+              - type: 'feature'
                 nouns: 'tk:'
                 labels: 'type:task'
