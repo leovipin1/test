@@ -4,23 +4,13 @@ on:
   pull_request:
     types:
       - opened
-
 jobs:
-  assign-labels-to-pr:
+  labeler:
+    name: Labeler
     runs-on: ubuntu-latest
-    name: Assign labels in pull request
-    if: github.event.pull_request.merged == false
     steps:
-      - uses: actions/checkout@v3
-
-      - uses: mauroalderete/action-assign-labels@v1.4.2
+      # follows semantic versioning. Lock to different version: v1, v1.5, v1.5.0 or use a commit hash.
+      - uses: fuxingloh/multi-labeler@v2.0.3
         with:
-          github-token: ${{ secrets.ADD_TO_PROJECT_PAT }}
-          conventional-commits: |
-            conventional-commits:
-              - type: 'fix'
-                nouns: 'bf:'
-                labels: 'bug'
-              - type: 'feature'
-                nouns: 'tk:'
-                labels: 'type:task'
+          github-token: ${{ secrets.ADD_TO_PROJECT_PAT }} # optional, default to '${{ github.token }}'  
+          config-path: .github/labeler.yml # optional, default to '.github/labeler.yml'
