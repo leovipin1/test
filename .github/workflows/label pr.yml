@@ -21,3 +21,6 @@ jobs:
               - type: 'fix'
                 nouns: 'bf:'
                 labels: ['bug']
+              - type: 'issue'
+                nouns: 'tk:'
+                labels: 'type:task'
