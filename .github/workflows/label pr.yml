@@ -1,0 +1,23 @@
+name: Labels Test
+
+on:
+  pull_request:
+    types:
+      - opened
+
+jobs:
+  assign-labels-to-pr:
+    runs-on: ubuntu-latest
+    name: Assign labels in pull request
+    if: github.event.pull_request.merged == false
+    steps:
+      - uses: actions/checkout@v3
+
+      - uses: uses: mauroalderete/action-assign-labels@v1.4.2
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          conventional-commits: |
+            conventional-commits:
+              - type: 'fix'
+                nouns: 'bf:'
+                labels: ['bug']
