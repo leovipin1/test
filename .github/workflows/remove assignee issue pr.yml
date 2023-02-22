@@ -21,6 +21,4 @@ jobs:
         owner: ${{secrets.OWNER}}
         repo: ${{secrets.REPO}}
         token: ${{secrets.ADD_TO_PROJECT_PAT}}
-        filter-labels: ready-for-review
         clear-assignees: true
-        update-assignees: username
