@@ -96,7 +96,8 @@ body:
       label: Error Code or Log
       description: Include code to reproduce, if relevant or the error output!!!!!
       placeholder: Error Code or Logs generated
-      value: [Error Code or Logs generated]
+      value: |
+        [Error Code or Logs generated]
       render: VBA
     validations:
       required: false
