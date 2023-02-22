@@ -1,0 +1,24 @@
+name: Update Issues Assignee
+
+on:
+  pull_request:
+    types:
+      - reopened
+  issues:
+    types:
+      - reopened
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: update assignees
+      id: updater
+      uses: garganshu/github-assignee-updater@v1.0.0
+      with:
+        owner: ${{secrets.OWNER}}
+        repo: ${{secrets.REPO}}
+        token: ${{secrets.ADD_TO_PROJECT_PAT}}
+        clear-assignees: true
