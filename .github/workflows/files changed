@@ -1,4 +1,0 @@
-- name: Detect changed files
-  uses: hasaan21/files-changed-detector-action@v1
-  with:
-    github-token: ${{ secrets.ADD_TO_PROJECT_PAT }}

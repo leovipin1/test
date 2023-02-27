@@ -1,0 +1,14 @@
+name: 'Comment on push'
+on:
+  push
+
+jobs:
+  comment_if_files_changed:
+    runs-on: ubuntu-latest
+    name: Comment on push with changed files
+    steps:
+      - name: Hello world action step
+        uses: BusseBu/comment-on-push@master
+        with:
+          pattern: ^post-review fixes$
+          repo-token: ${{ secrets.ADD_TO_PROJECT_PAT }}
