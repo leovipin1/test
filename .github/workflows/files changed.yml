@@ -10,5 +10,4 @@ jobs:
       - name: Hello world action step
         uses: BusseBu/comment-on-push@master
         with:
-          pattern: ^post-review fixes$
           repo-token: ${{ secrets.ADD_TO_PROJECT_PAT }}
