@@ -1,0 +1,14 @@
+name: issue-automation
+
+on:
+  push:
+
+jobs:
+  automate-issues-labels:
+    runs-on: ubuntu-latest
+    steps:
+      - name: initial labeling
+        uses: leovipin1/add-label-to-issues-pr@master
+        with:
+          add-labels: merged
+          repo-token: ${{ secrets.ADD_TO_PROJECT_PAT }}
