@@ -2,6 +2,8 @@ name: issue-automation
 
 on:
   push:
+    branches:
+    - main
 
 jobs:
   automate-issues-labels:
