@@ -2,8 +2,6 @@ name: Task
 description: Submit a Task!!!!!
 title: "📝 [Task]: "
 labels: task, incomplete
-assignees:
-  - leovipin1
 body:
   - type: markdown
     attributes:
