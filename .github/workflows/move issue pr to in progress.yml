@@ -1,15 +1,17 @@
-name: Move new issues into Triage
-
 on:
-  issues:
+  issue:
     types: [assigned]
 
 jobs:
-  automate-project-columns:
+  move-to-in-progress:
     runs-on: ubuntu-latest
+    name: Move to In Progress Column
     steps:
-      - uses: alex-page/github-project-automation-plus@v0.8.3
-        with:
-          project: Life Engine Designer Planner
-          column: Developing
-          repo-token: ${{ secrets.ADD_TO_PROJECT_PAT }}
+      - name: Checkout
+        uses: actions/checkout@v2
+	  - name: Move to In Progress
+	    uses: kin/gh-action-move-issue-to-column@1.0
+		with:
+		  access-token: "#{{ secrets.ADD_TO_PROJECT_PAT }}"
+		  project-name: "Life Engine Designer Planner"
+		  target-column: "Developing"
