@@ -11,7 +11,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: assigned labeling
-        uses: leovipin1/labeler@master
+        uses: andymckay/labeler@master
         with:
           add-labels: in progress
+          remove-labels: incomplete
           repo-token: ${{ secrets.ADD_TO_PROJECT_PAT }}
