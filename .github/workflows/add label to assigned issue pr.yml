@@ -1,0 +1,17 @@
+name: issue-automation
+
+on:
+  issues:
+    types: [assigned]
+  pull_request:
+    types: [assigned]
+
+jobs:
+  automate-issues-labels:
+    runs-on: ubuntu-latest
+    steps:
+      - name: assigned labeling
+        uses: leovipin1/labeler@master
+        with:
+          add-labels: in progress
+          repo-token: ${{ secrets.ADD_TO_PROJECT_PAT }}
