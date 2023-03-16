@@ -1,0 +1,19 @@
+name: Update Issues Assignee
+
+on:
+  issues:
+    types:
+      - closed
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: update assignees
+      id: updater
+      uses: garganshu/github-assignee-updater@v1.0.0
+      with:
+        owner: leovipin1
+        repo: test
+        token: ${{ secrets.ADD_TO_PROJECT_PAT }}
+        clear-assignees: true
