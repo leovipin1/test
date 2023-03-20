@@ -1,1 +1,0 @@
-testing contributing guidelines
