@@ -23,3 +23,4 @@ sdfasdf
 teste
 testeset
 asdasdasd
+asdasdasdasdsd auto merge
