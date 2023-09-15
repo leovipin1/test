@@ -27,7 +27,8 @@ body:
   - type: textarea
     id: expectedbehavior
     attributes:
-      label: ---
+      label: 
+      value: ---
   - type: markdown
     attributes:
       value: ---
