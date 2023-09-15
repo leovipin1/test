@@ -24,10 +24,10 @@ body:
   - type: markdown
     attributes:
       value: ---
-  - type: textarea
+  - type: input
     id: expectedbehavior
     attributes:
-      label:  
+      label: #
       value: ---
   - type: markdown
     attributes:
