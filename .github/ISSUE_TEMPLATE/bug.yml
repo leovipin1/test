@@ -17,8 +17,33 @@ body:
   - type: input
     id: descsep
     attributes:
-      label: ---
-      description: This will be used as a SEPERATOR in the markdown. KINDLY DO NOT CHANGE THE VALUE.
+      label: --- (TO BE REMOVED AFTER SUBMITTING THE FORM)
+      description: This will be used as a SEPERATOR in the markdown. KINDLY IGNORE THIS AND DO NOT CHANGE THE VALUE.
       value: ---
     validations:
       required: true
+  - type: markdown
+    attributes:
+      value: ---
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected Behavior
+      description: Tell us what should happen!!!!!
+      placeholder: Description of the behavior that is expected
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: ---
+  - type: input
+    id: exbhsep
+    attributes:
+      label: --- (TO BE REMOVED AFTER SUBMITTING THE FORM)
+      description: This will be used as a SEPERATOR in the markdown. KINDLY IGNORE THIS AND DO NOT CHANGE THE VALUE.
+      value: ---
+    validations:
+      reqiured: true
+  - type: markdown
+    attributes:
+      value: ---
