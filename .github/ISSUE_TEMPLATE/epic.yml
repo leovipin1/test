@@ -1,0 +1,61 @@
+name: EPIC
+description: Submit an EPIC request!!!!!
+title: "🏔️ [EPC]: "
+body:
+  - type: markdown
+    attributes:
+      value: Thank you for taking the time to fill out this EPIC request form!!!!!
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: |
+        Detailed information regarding the EPIC request!!!!!
+
+        Format: (Copy the below and update)
+        ***Background:***
+        [Summarise the problem or functionality]
+
+        ***Problem Statement:***
+        [Goals of the Epic or problems being solved]
+
+        ***Requirements:***
+        [Deliverable components of the Epic]
+      placeholder: |
+        ***Background:***
+        [Summarise the problem or functionality]
+
+        ***Problem Statement:***
+        [Goals of the Epic or problems being solved]
+
+        ***Requirements:***
+        [Deliverable components of the Epic]
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: ---
+  - type: input
+    id: descsep
+    attributes:
+      label: --- (TO BE REMOVED AFTER SUBMITTING THE FORM)
+      description: This will be used as a SEPERATOR in the markdown. KINDLY IGNORE THIS AND DO NOT CHANGE THE VALUE.
+      value: ---
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: ---
+  - type: textarea
+    id: features
+    attributes:
+      label: Related Features
+      description: |
+        The list of related Features for this EPIC!!!!!
+
+        Format: (Copy the below and update)
+        - [ ] #[Related Feature]
+        - [ ] #[Related Feature]
+        - [ ] #[Related Feature]
+    validations:
+      required: true
