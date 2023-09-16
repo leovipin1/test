@@ -32,7 +32,7 @@ body:
   - type: textarea
     id: expectedbehavior
     attributes:
-      label: Expected Behavior
+      label: Description
       description: Tell us what should happen!!!!!
       placeholder: Description of the expected behavior
       value: |
