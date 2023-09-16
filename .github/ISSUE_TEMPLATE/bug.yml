@@ -3,16 +3,14 @@ description: Submit a Bug report!!!!!
 title: "🐞 [BUG]: "
 body:
   - type: markdown
-    attributes:
-      value: Thank you for taking the time to fill out this BUG report form!!!!!
+    attributes: 
+      value: Thank you for taking the time to fill out this BUG report!!!!!
   - type: textarea
     id: description
     attributes:
       label: Description
-      description: Provide a detailed introduction to the BUG and why you consider it to be a BUG!!!!!
-      placeholder: Detailed description and the reason for it being a BUG.
-    validations:
-      required: true
+      description: Provide a detailed introduction to the BUG and the reason why you consider it to be a BUG!!!!!
+      placeholder: Description and Reason
   - type: markdown
     attributes:
       value: ---
@@ -20,79 +18,7 @@ body:
     id: descsep
     attributes:
       label: ---
-      description: This will be used as seperator for the markdown. KINDLY DO NOT CHANGE ITS VALUE.
+      description: This will be used as a SEPERATOR in the markdown. KINDLY DO NOT CHANGE THE VALUE.
       value: ---
-      required: true 
-  - type: markdown
-    attributes:
-      value: ---
-  - type: textarea
-    id: expectedbehavior
-    attributes:
-      label: Expected Behavior
-      description: Tell us what should happen!!!!!
-      placeholder: Description of the expected behavior
     validations:
       required: true
-  - type: markdown
-    attributes:
-      value: ---
-  - type: textarea
-    id: actualbehavior
-    attributes:
-      label: Actual Behavior
-      description: Tell us what happens instead!!!!!
-      placeholder: Description of the actual behvaior
-      value: |
-        [Actual Behavior]
-        
-        ---
-    validations:
-      required: true
-  - type: markdown
-    attributes:
-      value: ---
-  - type: textarea
-    id: steps
-    attributes:
-      label: Steps to Reproduce
-      description: Provide a link to a live example, or an unambiguous set of steps to reproduce this Bug!!!!!
-      placeholder: Steps to Reproduce
-      value: |
-        [Steps to Reproduce
-        1. Step 1
-        2. Step 2
-        3. Step 3]
-
-        ---
-    validations:
-      required: true
-  - type: markdown
-    attributes:
-      value: ---
-  - type: textarea
-    id: errorscreenshot
-    attributes:
-      label: Error Screenshot
-      description: Provide the screenshot of the error!!!!!
-      placeholder: Enter the uploaded screenshot link
-      value: |
-        [Place the screenshot link here]
-        
-        ---
-    validations:
-      required: false
-  - type: markdown
-    attributes:
-      value: ---
-  - type: textarea
-    id: code
-    attributes:
-      label: Error Code or Log
-      description: Include code to reproduce, if relevant or the error output!!!!!
-      placeholder: Error Code or Logs generated
-      value: |
-        [Error Code or Logs generated]
-      render: VBA
-    validations:
-      required: false
