@@ -22,16 +22,16 @@ body:
       label: ---
       description: This will be used as seperator for the markdown. KINDLY DO NOT CHANGE ITS VALUE.
       value: ---
+      required: true 
+  - type: markdown
+    attributes:
+      value: ---
   - type: textarea
     id: expectedbehavior
     attributes:
       label: Expected Behavior
       description: Tell us what should happen!!!!!
       placeholder: Description of the expected behavior
-      value: |
-        [Expected Behavior]
-        
-        ---
     validations:
       required: true
   - type: markdown
