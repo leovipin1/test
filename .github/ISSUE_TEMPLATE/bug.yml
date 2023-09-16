@@ -9,30 +9,23 @@ body:
     id: description
     attributes:
       label: Description
-      description: |
-        Provide a detailed introduction to the BUG and why you consider it to be a BUG!!!!!
-        Kindly provide the response in the below format ONLY.
-        Description
-
-        Reason
-
-        ---
-      placeholder: |
-        Detailed description and the reason for it being a BUG.
-        Description
-
-        Reason
-
-        ---
+      description: Provide a detailed introduction to the BUG and why you consider it to be a BUG!!!!!
+      placeholder: Detailed description and the reason for it being a BUG.
     validations:
       required: true
   - type: markdown
     attributes:
       value: ---
+  - type: input
+    id: descsep
+    attributes:
+      label: ---
+      description: This will be used as seperator for the markdown. KINDLY DO NOT CHANGE ITS VALUE.
+      value: ---
   - type: textarea
     id: expectedbehavior
     attributes:
-      label: Description
+      label: Expected Behavior
       description: Tell us what should happen!!!!!
       placeholder: Description of the expected behavior
       value: |
