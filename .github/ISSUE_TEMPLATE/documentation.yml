@@ -1,24 +1,27 @@
-name: Documentation
-description: Submit a Documentation Request!!!!!
-title: "📝 [Document]: "
-labels: document, incomplete
-assignees:
-  - leovipin1
+name: DOCUMENTATION
+description: Submit a DOCUMENTATION request!!!!!
+title: "📄 [DOC]: "
 body:
   - type: markdown
-    attributes:
-      value: Thanks for taking the time to fill out this Documentation Form!!!!!
+    attributes: 
+      value: Thank you for taking the time to fill out this DOCUMENTATION request form!!!!!
   - type: textarea
     id: description
     attributes:
       label: Description
-      description: Describe the Information that is to be Documented!!!!!
-      placeholder: Describe the Information
-      value: |
-        Documentation Information
-        
-        
-        ---
+      description: Describe the information that is to be Documented!!!!!
+      placeholder: Information to be Documented
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: ---
+  - type: input
+    id: descsep
+    attributes:
+      label: --- (TO BE REMOVED AFTER SUBMITTING THE FORM)
+      description: This will be used as a SEPERATOR in the markdown. KINDLY IGNORE THIS AND DO NOT CHANGE THE VALUE.
+      value: ---
     validations:
       required: true
   - type: markdown
@@ -28,7 +31,29 @@ body:
     id: filename
     attributes:
       label: File Name
-      description: Provide the Name of the File which is to be Updated!!!!!
-      placeholder: File Name
+      description: Provide the name of the file which is to be Created/Modified/Deleted!!!!!
+      placeholder: Name of the file with extension
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: ---
+  - type: input
+    id: exbhsep
+    attributes:
+      label: --- (TO BE REMOVED AFTER SUBMITTING THE FORM)
+      description: This will be used as a SEPERATOR in the markdown. KINDLY IGNORE THIS AND DO NOT CHANGE THE VALUE.
+      value: ---
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: ---
+  - type: input
+    id: filepath
+    attributes:
+      label: File Path
+      description: Provide the full path in the Github Repository for the above file!!!!!
+      placeholder: Path of the file in the Repository
     validations:
       required: true
