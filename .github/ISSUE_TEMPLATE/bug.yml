@@ -11,6 +11,8 @@ body:
       label: Description
       description: Provide a detailed introduction to the BUG and the reason why you consider it to be a BUG!!!!!
       placeholder: Description and Reason
+    validations:
+      required: true
   - type: markdown
     attributes:
       value: ---
@@ -18,7 +20,7 @@ body:
     id: descsep
     attributes:
       label: --- (TO BE REMOVED AFTER SUBMITTING THE FORM)
-      description: This will be used as a SEPERATOR in the markdown. KINDLY IGNORE THIS AND DO NOT CHANGE THE VALUE.
+      description: This will be used as a SEPARATOR in the markdown. KINDLY IGNORE THIS AND DO NOT CHANGE THE VALUE.
       value: ---
     validations:
       required: true
@@ -28,9 +30,9 @@ body:
   - type: textarea
     id: expected
     attributes:
-      label: Expected Behavior
+      label: Expected Behaviour
       description: Tell us what should happen!!!!!
-      placeholder: Description of the behavior that is expected
+      placeholder: Description of the behaviour that is expected
     validations:
       required: true
   - type: markdown
@@ -38,6 +40,78 @@ body:
       value: ---
   - type: input
     id: exbhsep
+    attributes:
+      label: --- (TO BE REMOVED AFTER SUBMITTING THE FORM)
+      description: This will be used as a SEPARATOR in the markdown. KINDLY IGNORE THIS AND DO NOT CHANGE THE VALUE.
+      value: ---
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: ---
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual Behaviour
+      description: Tell us what happens instead!!!!!
+      placeholder: Description of the behaviour that is actually happening
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: ---
+  - type: input
+    id: acbhsep
+    attributes:
+      label: --- (TO BE REMOVED AFTER SUBMITTING THE FORM)
+      description: This will be used as a SEPARATOR in the markdown. KINDLY IGNORE THIS AND DO NOT CHANGE THE VALUE.
+      value: ---
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: ---
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to Reproduce
+      description: |
+        Provide a link to a live example, or an unambiguous set of steps to reproduce the BUG!!!!!
+
+        Format: (If providing steps)
+        Steps to Reproduce
+        1.
+        2.
+        3.
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: ---
+  - type: input
+    id: stepsep
+    attributes:
+      label: --- (TO BE REMOVED AFTER SUBMITTING THE FORM)
+      description: This will be used as a SEPERATOR in the markdown. KINDLY IGNORE THIS AND DO NOT CHANGE THE VALUE.
+      value: ---
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: ---
+  - type: input
+    id: screenshot
+    attributes:
+      label: Error Screenshot
+      description: Provide the screenshot of the Error!!!!!
+      placeholder: Place the screenshot link here
+    validations:
+      required: false
+  - type: markdown
+    attributes:
+      value: ---
+  - type: input
+    id: ersssep
     attributes:
       label: --- (TO BE REMOVED AFTER SUBMITTING THE FORM)
       description: This will be used as a SEPERATOR in the markdown. KINDLY IGNORE THIS AND DO NOT CHANGE THE VALUE.
@@ -48,24 +122,11 @@ body:
     attributes:
       value: ---
   - type: textarea
-    id: actual
+    id: log
     attributes:
-      label: Actual Behavior
-      description: Tell us what happens instead!!!!!
-      placeholder: Description of the behavior that is actually happening
+      label: Error Code or log
+      description: Include code to reproduce, if relevant or the Error Output!!!!!
+      placeholder: Error Code or Log generated
+      render: VBA
     validations:
-      required: true
-  - type: markdown
-    attributes:
-      value: ---
-  - type: input
-    id: acbhsep
-    attributes:
-      label: --- (TO BE REMOVED AFTER SUBMITTING THE FORM)
-      description: This will be used as a SEPERATOR in the markdown. KINDLY IGNORE THIS AND DO NOT CHANGE THE VALUE.
-      value: ---
-    validations:
-      required: true
-  - type: markdown
-    attributes:
-      value: ---
+      required: false
