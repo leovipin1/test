@@ -83,6 +83,12 @@ body:
         1.
         2.
         3.
+      placeholder: |
+        Format: (If providing steps)
+        Steps to Reproduce
+        1.
+        2.
+        3.
     validations:
       required: true
   - type: markdown
