@@ -1,34 +1,46 @@
-name: Bug
-description: Submit a Bug Report!!!!!
-title: "🐞 [Bug]: "
-labels: bug, incomplete
-assignees:
-  - leovipin1
+name: BUG
+description: Submit a Bug report!!!!!
+title: "🐞 [BUG]: "
 body:
   - type: markdown
     attributes:
-      value: "Thanks for taking the time to fill out this Bug Report Form!!!!!"
+      value: Thank you for taking the time to fill out this BUG report form!!!!!
   - type: textarea
     id: description
     attributes:
       label: Description
-      description: Provide a more detailed introduction to the issue itself, and why you consider it to be a bug!!!!!
-      placeholder: Description of the Bug
-      value: |
-        Description of the Bug
-        
-        
+      description: |
+        Provide a detailed introduction to the BUG and why you consider it to be a BUG!!!!!
+        Kindly provide the response in the below format ONLY.
+        Description
+
+        Reason
+
+        ---
+      placeholder: |
+        Detailed description and the reason for it being a BUG.
+        Description
+
+        Reason
+
         ---
     validations:
       required: true
   - type: markdown
     attributes:
       value: ---
-  - type: input
+  - type: textarea
     id: expectedbehavior
     attributes:
-      label: #
-      value: ---
+      label: Expected Behavior
+      description: Tell us what should happen!!!!!
+      placeholder: Description of the expected behavior
+      value: |
+        [Expected Behavior]
+        
+        ---
+    validations:
+      required: true
   - type: markdown
     attributes:
       value: ---
@@ -37,10 +49,9 @@ body:
     attributes:
       label: Actual Behavior
       description: Tell us what happens instead!!!!!
-      placeholder: Description of the Actual Behvaior
+      placeholder: Description of the actual behvaior
       value: |
-        Actual Behavior
-        
+        [Actual Behavior]
         
         ---
     validations:
@@ -52,16 +63,14 @@ body:
     id: steps
     attributes:
       label: Steps to Reproduce
-      description: Provide a link to a live example, or an unambiguous set of steps to reproduce this bug!!!!!
-      placeholder: |
-        Steps to Reproduce
+      description: Provide a link to a live example, or an unambiguous set of steps to reproduce this Bug!!!!!
+      placeholder: Steps to Reproduce
       value: |
-        Steps to Reproduce
+        [Steps to Reproduce
         1. Step 1
         2. Step 2
-        3. Step 3
-        
-        
+        3. Step 3]
+
         ---
     validations:
       required: true
@@ -72,11 +81,10 @@ body:
     id: errorscreenshot
     attributes:
       label: Error Screenshot
-      description: Provide the Screenshot of the Error!!!!!
-      placeholder: Enter the Uploaded Screenshot Link
+      description: Provide the screenshot of the error!!!!!
+      placeholder: Enter the uploaded screenshot link
       value: |
-        Place the Screenshot Link Here
-        
+        [Place the screenshot link here]
         
         ---
     validations:
@@ -88,8 +96,10 @@ body:
     id: code
     attributes:
       label: Error Code or Log
-      description: Include code to reproduce, if relevant or the Error Output!!!!!
+      description: Include code to reproduce, if relevant or the error output!!!!!
       placeholder: Error Code or Logs generated
+      value: |
+        [Error Code or Logs generated]
       render: VBA
     validations:
       required: false
