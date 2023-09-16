@@ -43,7 +43,29 @@ body:
       description: This will be used as a SEPERATOR in the markdown. KINDLY IGNORE THIS AND DO NOT CHANGE THE VALUE.
       value: ---
     validations:
-      reqiured: true
+      required: true
   - type: markdown
     attributes:
       value: ---
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual Behavior
+      description: Tell us what happens instead!!!!!
+      placeholder: Description of the behaviour that is actually happening
+    validations:
+      required: true
+  - type: markdown
+      attributes:
+        value: ---
+  - type: input
+      id: acbhsep
+      attributes:
+        label: --- (TO BE REMOVED AFTER SUBMITTING THE FORM)
+        description: This will be used as a SEPARATOR in the markdown. KINDLY IGNORE THIS AND DO NOT CHANGE THE VALUE.
+        value: ---
+      validations:
+        required: true
+  - type: markdown
+      attributes:
+        value: ---
