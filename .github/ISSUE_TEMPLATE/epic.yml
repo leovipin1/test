@@ -12,14 +12,14 @@ body:
       description: |
         Detailed information regarding the EPIC request!!!!!
 
-        Format: (Copy the below and update)
-        ***Background:***
+        Format: (Copy the below and update) (Remove the space before and after the `***`)
+        *** Background: ***
         [Summarise the problem or functionality]
 
-        ***Problem Statement:***
+        *** Problem Statement :***
         [Goals of the Epic or problems being solved]
 
-        ***Requirements:***
+        *** Requirements :***
         [Deliverable components of the Epic]
       placeholder: |
         ***Background:***
@@ -54,6 +54,10 @@ body:
         The list of related Features for this EPIC!!!!!
 
         Format: (Copy the below and update)
+        - [  ] #[Related Feature]
+        - [  ] #[Related Feature]
+        - [  ] #[Related Feature]
+      placeholder: |
         - [ ] #[Related Feature]
         - [ ] #[Related Feature]
         - [ ] #[Related Feature]
