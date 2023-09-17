@@ -83,7 +83,7 @@ body:
         1.
         2.
         3.***"
-      placeholder: "***Provide either a live example or the steps to reproduce
+      placeholder: "***Provide either a live example or the steps to reproduce.***"
     validations:
       required: true
   - type: markdown
