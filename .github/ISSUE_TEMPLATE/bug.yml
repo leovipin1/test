@@ -9,7 +9,7 @@ body:
     id: description
     attributes:
       label: Description
-      description: "**Provide a detailed introduction to the BUG and the reason why you consider it to be a BUG!!!!!**"
+      description: "*Provide a detailed introduction to the BUG and the reason why you consider it to be a BUG!!!!!*"
       placeholder: "***BUG's description and its reason.***"
     validations:
       required: true
