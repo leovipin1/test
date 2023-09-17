@@ -5,7 +5,15 @@ body:
   - type: markdown
     attributes:
       value: |
+        ---
+  - type: markdown
+    attributes:
+      value: |
         *Thank you for taking the time to fill out this BUG Report!!!!!*
+  - type: markdown
+    attributes:
+      value: |
+        ---
   - type: textarea
     id: description
     attributes:
