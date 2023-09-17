@@ -12,7 +12,7 @@ body:
       description: |
         Detailed information regarding the EPIC request!!!!!
 
-        Format: (Copy the below and update) (Remove the space after the first `***` in each line)
+        Format: (COPY THE BELOW AND UPDATE ACCORDINGLY) (REMOVE THE SPACE AFTER THE FIRST `***` IN EACH LINE)
         *** Background:***
         [Summarise the problem or functionality]
 
@@ -45,7 +45,7 @@ body:
       description: |
         The list of related Features for this EPIC!!!!!
 
-        Format: (Provide the list in below format) (Remove the `*` to provide the list)
+        Format: (PROVIDE THE LIST IN BELOW FORMAT) (REMOVE THE `*` TO PROVIDE THE LIST)
         *- [ ] #[Related Feature]
         *- [ ] #[Related Feature]
         *- [ ] #[Related Feature]
