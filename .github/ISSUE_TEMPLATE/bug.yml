@@ -1,5 +1,5 @@
 name: BUG
-description: Submit a BUG Report!!!!!
+description: SUBMIT A BUG REPORT!!!!!
 title: "🐞 [BUG]: "
 body:
   - type: markdown
@@ -35,7 +35,7 @@ body:
       label: |
         --- (TO BE REMOVED AFTER SUBMITTING THE FORM)
       description: |
-        *This will be used as a SEPERATOR in the markdown.* ***KINDLY IGNORE THIS AND DO NOT CHANGE THE VALUE.***
+        *This will be used as a SEPARATOR in the markdown.* ***KINDLY IGNORE THIS AND DO NOT CHANGE THE VALUE.***
       value: ---
     validations:
       required: true
@@ -63,7 +63,7 @@ body:
       label: |
         --- (TO BE REMOVED AFTER SUBMITTING THE FORM)
       description: |
-        *This will be used as a SEPERATOR in the markdown.* ***KINDLY IGNORE THIS AND DO NOT CHANGE THE VALUE.***
+        *This will be used as a SEPARATOR in the markdown.* ***KINDLY IGNORE THIS AND DO NOT CHANGE THE VALUE.***
       value: |
         ---
     validations:
@@ -93,7 +93,7 @@ body:
       label: |
         --- (TO BE REMOVED AFTER SUBMITTING THE FORM)
       description: |
-        *This will be used as a SEPERATOR in the markdown.* ***KINDLY IGNORE THIS AND DO NOT CHANGE THE VALUE.***
+        *This will be used as a SEPARATOR in the markdown.* ***KINDLY IGNORE THIS AND DO NOT CHANGE THE VALUE.***
       value: |
         ---
     validations:
@@ -110,7 +110,7 @@ body:
       description: |
         *Provide the set of Steps to reproduce the BUG!!!!!*
 
-        *(TO BE PROVIDED IN BELOW FORMAT)*
+        *(TO BE PROVIDED IN THE BELOW FORMAT)*
         ***Steps to Reproduce the BUG
         1.
         2.
@@ -129,7 +129,7 @@ body:
       label: |
         --- (TO BE REMOVED AFTER SUBMITTING THE FORM)
       description: |
-        *This will be used as a SEPERATOR in the markdown.* ***KINDLY IGNORE THIS AND DO NOT CHANGE THE VALUE.***
+        *This will be used as a SEPARATOR in the markdown.* ***KINDLY IGNORE THIS AND DO NOT CHANGE THE VALUE.***
       value: |
         ---
     validations:
@@ -159,7 +159,7 @@ body:
       label: |
         --- (TO BE REMOVED AFTER SUBMITTING THE FORM)
       description: |
-        *This will be used as a SEPERATOR in the markdown.* ***KINDLY IGNORE THIS AND DO NOT CHANGE THE VALUE.***
+        *This will be used as a SEPARATOR in the markdown.* ***KINDLY IGNORE THIS AND DO NOT CHANGE THE VALUE.***
       value: |
         ---
     validations:
