@@ -12,7 +12,7 @@ body:
       description: |
         Detailed information regarding the EPIC request!!!!!
 
-        Format: (Copy the below and update) (Remove the space before and after the `***`)
+        Format: (Copy the below and update) (Remove the space after the first `***` in each line)
         *** Background:***
         [Summarise the problem or functionality]
 
@@ -21,15 +21,7 @@ body:
 
         *** Requirements:***
         [Deliverable components of the Epic]
-      placeholder: |
-        ***Background:***
-        [Summarise the problem or functionality]
-
-        ***Problem Statement:***
-        [Goals of the Epic or problems being solved]
-
-        ***Requirements:***
-        [Deliverable components of the Epic]
+      placeholder: Provide the EPIC details in the above format.
     validations:
       required: true
   - type: markdown
@@ -53,13 +45,10 @@ body:
       description: |
         The list of related Features for this EPIC!!!!!
 
-        Format: (Copy the below and update) (Remove the extra space in `-[ ]`)
-        - [  ] #[Related Feature]
-        - [  ] #[Related Feature]
-        - [  ] #[Related Feature]
-      placeholder: |
-        - [ ] #[Related Feature]
-        - [ ] #[Related Feature]
-        - [ ] #[Related Feature]
+        Format: (Provide the list in below format) (Remove the `*` to provide the list)
+        *- [ ] #[Related Feature]
+        *- [ ] #[Related Feature]
+        *- [ ] #[Related Feature]
+      placeholder: Add all the related Features for this EPIC in the above format.
     validations:
       required: true
