@@ -34,7 +34,7 @@ body:
       description: |
         Provide the name of the file which is to be Created/Modified/Deleted!!!!!
 
-        Ex: README.md
+        ***Ex: README.md***
       placeholder: Name of the file with extension
     validations:
       required: true
@@ -59,7 +59,7 @@ body:
       description: |
         Provide the full path in the Github Repository for the above file!!!!!
         
-        Ex: .github/workflows/
+        ***Ex: .github/workflow/***
       placeholder: Full Path of the file in the Repository
     validations:
       required: true
