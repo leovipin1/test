@@ -1,65 +1,91 @@
 name: DOCUMENTATION
-description: Submit a DOCUMENTATION request!!!!!
+description: SUBMIT A DOCUMENTATION REQUEST!!!!!
 title: "📄 [DOC]: "
 body:
   - type: markdown
-    attributes: 
-      value: Thank you for taking the time to fill out this DOCUMENTATION request form!!!!!
+    attributes:
+      value: |
+        ---
+  - type: markdown
+    attributes:
+      value: |
+        *THANK YOU FOR TAKING THE TIME TO FILL OUT THIS DOCUMENTATION REQUEST FORM!!!!!*
+  - type: markdown
+    attributes:
+      value: |
+        ---
   - type: textarea
     id: description
     attributes:
-      label: Description
-      description: Describe the information that is to be Documented!!!!!
-      placeholder: Information to be Documented
+      label: |
+        Description
+      description: |
+        *Kindly provide the information that is to be DOCUMENTED!!!!!*
+      placeholder: |
+        Information to be Documented.
     validations:
       required: true
   - type: markdown
     attributes:
-      value: ---
+      value: |
+        ---
   - type: input
     id: descsep
     attributes:
-      label: --- (TO BE REMOVED AFTER SUBMITTING THE FORM)
-      description: This will be used as a SEPERATOR in the markdown. KINDLY IGNORE THIS AND DO NOT CHANGE THE VALUE.
-      value: ---
+      label: |
+        --- (TO BE REMOVED AFTER SUBMITTING THE FORM)
+      description: |
+        *This will be used as a SEPARATOR in the markdown.* ***KINDLY IGNORE THIS AND DO NOT CHANGE THE VALUE.***
+      value: |
+        ---
     validations:
       required: true
   - type: markdown
     attributes:
-      value: ---
+      value: |
+        ---
   - type: input
     id: filename
     attributes:
-      label: File Name
+      label: |
+        File Name
       description: |
-        Provide the name of the file which is to be Created/Modified/Deleted!!!!!
+        *Kindly provide the name of the file with extension that is to be created/modified/deleted!!!!!*
 
         ***Ex: README.md***
-      placeholder: Name of the file with extension
+      placeholder: |
+        Name of the File with Extension.
     validations:
       required: true
   - type: markdown
     attributes:
-      value: ---
+      value: |
+        ---
   - type: input
-    id: exbhsep
+    id: flnmsep
     attributes:
-      label: --- (TO BE REMOVED AFTER SUBMITTING THE FORM)
-      description: This will be used as a SEPERATOR in the markdown. KINDLY IGNORE THIS AND DO NOT CHANGE THE VALUE.
-      value: ---
+      label: |
+        --- (TO BE REMOVED AFTER SUBMITTING THE FORM)
+      description: |
+        *This will be used as a SEPARATOR in the markdown.* ***KINDLY IGNORE THIS AND DO NOT CHANGE THE VALUE.***
+      value: |
+        ---
     validations:
       required: true
   - type: markdown
     attributes:
-      value: ---
+      value: |
+        ---
   - type: input
     id: filepath
     attributes:
-      label: File Path
+      label: |
+        File Path
       description: |
-        Provide the full path in the Github Repository for the above file!!!!!
-        
-        ***Ex: .github/workflow/***
-      placeholder: Full Path of the file in the Repository
+        *Kindly provide the full path as per the Github repository hierarchy of the above file!!!!!*
+
+        ***Ex: .github/workflows/***
+      placeholder: |
+        Full Path of the file in the Repository.
     validations:
       required: true
