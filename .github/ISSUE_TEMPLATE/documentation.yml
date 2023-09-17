@@ -50,7 +50,7 @@ body:
       label: |
         File Name
       description: |
-        *Kindly provide the name of the file with extension that is to be created/modified/deleted!!!!!*
+        *Kindly provide the name of the file with the extension that is to be created, modified or deleted!!!!!*
 
         ***Ex: README.md***
       placeholder: |
