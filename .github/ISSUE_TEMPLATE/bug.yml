@@ -1,16 +1,16 @@
 name: BUG
-description: Submit a Bug report!!!!!
+description: Submit a BUG report!!!!!
 title: "🐞 [BUG]: "
 body:
   - type: markdown
     attributes: 
-      value: Thank you for taking the time to fill out this BUG report!!!!!
+      value: ***Thank you for taking the time to fill out this BUG report!!!!!***
   - type: textarea
     id: description
     attributes:
       label: Description
-      description: Provide a detailed introduction to the BUG and the reason why you consider it to be a BUG!!!!!
-      placeholder: Description and Reason
+      description: **Provide a detailed introduction to the BUG and the reason why you consider it to be a BUG!!!!!**
+      placeholder: ***BUG's description and its reason.***
     validations:
       required: true
   - type: markdown
@@ -20,7 +20,7 @@ body:
     id: descsep
     attributes:
       label: --- (TO BE REMOVED AFTER SUBMITTING THE FORM)
-      description: This will be used as a SEPARATOR in the markdown. KINDLY IGNORE THIS AND DO NOT CHANGE THE VALUE.
+      description: ***This will be used as a SEPARATOR in the markdown. KINDLY IGNORE THIS AND DO NOT CHANGE THE VALUE.***
       value: ---
     validations:
       required: true
@@ -31,8 +31,8 @@ body:
     id: expected
     attributes:
       label: Expected Behaviour
-      description: Tell us what should happen!!!!!
-      placeholder: Description of the behaviour that is expected
+      description: **Tell us what should happen!!!!!**
+      placeholder: ***Description of the behaviour that is expected.***
     validations:
       required: true
   - type: markdown
@@ -42,7 +42,7 @@ body:
     id: exbhsep
     attributes:
       label: --- (TO BE REMOVED AFTER SUBMITTING THE FORM)
-      description: This will be used as a SEPARATOR in the markdown. KINDLY IGNORE THIS AND DO NOT CHANGE THE VALUE.
+      description: ***This will be used as a SEPARATOR in the markdown. KINDLY IGNORE THIS AND DO NOT CHANGE THE VALUE.***
       value: ---
     validations:
       required: true
@@ -84,7 +84,6 @@ body:
         2.
         3.
       placeholder: |
-        Format: (If providing steps)
         Steps to Reproduce
         1.
         2.
