@@ -1,26 +1,33 @@
 name: BUG
-description: Submit a BUG report!!!!!
+description: Submit a BUG Report!!!!!
 title: "🐞 [BUG]: "
 body:
   - type: markdown
-    attributes: 
-      value: "***Thank you for taking the time to fill out this BUG report!!!!!***"
+    attributes:
+      value: |
+        *Thank you for taking the time to fill out this BUG Report!!!!!*
   - type: textarea
     id: description
     attributes:
-      label: Description
-      description: "*Provide a detailed introduction to the BUG and the reason why you consider it to be a BUG!!!!!*"
-      placeholder: "***BUG's description and its reason.***"
+      label: |
+        Description
+      description: |
+        *Provide a detailed information of the BUG and the reason why you consider it to be a BUG!!!!!*
+      placeholder: |
+        BUG's description and the reason.
     validations:
       required: true
   - type: markdown
     attributes:
-      value: ---
+      value: |
+        ---
   - type: input
     id: descsep
     attributes:
-      label: --- (TO BE REMOVED AFTER SUBMITTING THE FORM)
-      description: "**This will be used as a SEPARATOR in the markdown.** ***KINDLY IGNORE THIS AND DO NOT CHANGE THE VALUE.***"
+      label: |
+        --- (TO BE REMOVED AFTER SUBMITTING THE FORM)
+      description: |
+        *This will be used as a SEPERATOR in the markdown.* ***KINDLY IGNORE THIS AND DO NOT CHANGE THE VALUE.***
       value: ---
     validations:
       required: true
@@ -28,106 +35,140 @@ body:
     attributes:
       value: ---
   - type: textarea
-    id: expected
+    id: expbeh
     attributes:
-      label: Expected Behaviour
-      description: "**Tell us what should happen!!!!!**"
-      placeholder: "***Description of the behaviour that is expected.***"
+      label: |
+        Expected Behaviour
+      description: |
+        *Tell us what should happen!!!!!*
+      placeholder: |
+        Description of the Expected Behaviour.
     validations:
       required: true
   - type: markdown
     attributes:
-      value: ---
+      value: |
+        ---
   - type: input
     id: exbhsep
     attributes:
-      label: --- (TO BE REMOVED AFTER SUBMITTING THE FORM)
-      description: "**This will be used as a SEPARATOR in the markdown.** ***KINDLY IGNORE THIS AND DO NOT CHANGE THE VALUE.***"
-      value: ---
+      label: |
+        --- (TO BE REMOVED AFTER SUBMITTING THE FORM)
+      description: |
+        *This will be used as a SEPERATOR in the markdown.* ***KINDLY IGNORE THIS AND DO NOT CHANGE THE VALUE.***
+      value: |
+        ---
     validations:
       required: true
   - type: markdown
     attributes:
-      value: ---
+      value: |
+        ---
   - type: textarea
-    id: actual
+    id: actbeh
     attributes:
-      label: Actual Behaviour
-      description: "**Tell us what happens instead!!!!!**"
-      placeholder: "***Description of the behaviour that is actually happening***"
+      label: |
+        Actual Behaviour
+      description: |
+        *Tell us what happens instead!!!!!*
+      placeholder: |
+        Description of the Actual Behaviour.
     validations:
       required: true
   - type: markdown
     attributes:
-      value: ---
+      value: |
+        ---
   - type: input
     id: acbhsep
     attributes:
-      label: --- (TO BE REMOVED AFTER SUBMITTING THE FORM)
-      description: "**This will be used as a SEPARATOR in the markdown.** ***KINDLY IGNORE THIS AND DO NOT CHANGE THE VALUE.***"
-      value: ---
+      label: |
+        --- (TO BE REMOVED AFTER SUBMITTING THE FORM)
+      description: |
+        *This will be used as a SEPERATOR in the markdown.* ***KINDLY IGNORE THIS AND DO NOT CHANGE THE VALUE.***
+      value: |
+        ---
     validations:
       required: true
   - type: markdown
     attributes:
-      value: ---
+      value: |
+        ---
   - type: textarea
     id: steps
     attributes:
-      label: Steps to Reproduce
+      label: |
+        Steps to Reproduce
       description: |
-        *Provide a link to a live example, or an unambiguous set of steps to reproduce the BUG!!!!!*
+        *Provide the set of Steps to reproduce the BUG!!!!!*
 
-        **Format: (If providing steps)**
-        ***Steps to Reproduce
+        *(TO BE PROVIDED IN BELOW FORMAT)*
+        ***Steps to Reproduce the BUG
         1.
         2.
         3.***
-      placeholder: "***Provide either a live example or the steps to reproduce.***"
+      placeholder: |
+        Provide Steps in above Format.
     validations:
       required: true
   - type: markdown
     attributes:
-      value: ---
+      value: |
+        ---
   - type: input
     id: stepsep
     attributes:
-      label: --- (TO BE REMOVED AFTER SUBMITTING THE FORM)
-      description: "**This will be used as a SEPERATOR in the markdown.** ***KINDLY IGNORE THIS AND DO NOT CHANGE THE VALUE.***"
-      value: ---
+      label: |
+        --- (TO BE REMOVED AFTER SUBMITTING THE FORM)
+      description: |
+        *This will be used as a SEPERATOR in the markdown.* ***KINDLY IGNORE THIS AND DO NOT CHANGE THE VALUE.***
+      value: |
+        ---
     validations:
       required: true
   - type: markdown
     attributes:
-      value: ---
+      value: |
+        ---
   - type: input
     id: screenshot
     attributes:
-      label: Error Screenshot
-      description: "**Provide the screenshot of the Error!!!!!**"
-      placeholder: "***Place the screenshot link here***"
-    validations:
-      required: false
-  - type: markdown
-    attributes:
-      value: ---
-  - type: input
-    id: ersssep
-    attributes:
-      label: --- (TO BE REMOVED AFTER SUBMITTING THE FORM)
-      description: "**This will be used as a SEPERATOR in the markdown.** ***KINDLY IGNORE THIS AND DO NOT CHANGE THE VALUE.***"
-      value: ---
+      label: |
+        BUG Screenshot
+      description: |
+        *Provide the Screenshot of the BUG!!!!!*
+      placeholder: |
+        Link of the Screenshot.
     validations:
       required: true
   - type: markdown
     attributes:
-      value: ---
+      value: |
+        ---
+  - type: input
+    id: scshsep
+    attributes:
+      label: |
+        --- (TO BE REMOVED AFTER SUBMITTING THE FORM)
+      description: |
+        *This will be used as a SEPERATOR in the markdown.* ***KINDLY IGNORE THIS AND DO NOT CHANGE THE VALUE.***
+      value: |
+        ---
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: |
+        ---
   - type: textarea
     id: log
     attributes:
-      label: Error Code or log
-      description: "**Include code to reproduce, if relevant or the Error Output!!!!!**"
-      placeholder: "***Error Code or Log generated***"
+      label: |
+        BUG Code or Logs (If Applicable)
+      description: |
+        *Include the code to reproduce, if relevant or the output!!!!!*
+      placeholder: |
+        Code or Log generated.
       render: VBA
     validations:
       required: false
