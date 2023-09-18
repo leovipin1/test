@@ -111,10 +111,12 @@ body:
         *Kindly provide the set of steps to reproduce the BUG!!!!!*
 
         *(USE THE BELOW FORMAT ONLY)*
-        ```Steps to Reproduce the BUG
+        ```
+        Steps to Reproduce the BUG
         1. Step 1
         2. Step 2
-        3. Step 3```
+        3. Step 3
+        ```
       placeholder: |
         Provide Steps in above Format.
     validations:
