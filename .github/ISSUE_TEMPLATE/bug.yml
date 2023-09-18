@@ -20,7 +20,7 @@ body:
       label: |
         Description
       description: |
-        *Provide a detailed information of the BUG and the reason why you consider it to be a BUG!!!!!*
+        *Kindly provide a detailed information of the BUG and the reason why you consider it to be a BUG!!!!!*
       placeholder: |
         BUG's description and the reason.
     validations:
@@ -48,7 +48,7 @@ body:
       label: |
         Expected Behaviour
       description: |
-        *Tell us what should happen!!!!!*
+        *Kindly provide the details of what should happen!!!!!*
       placeholder: |
         Description of the Expected Behaviour.
     validations:
@@ -78,7 +78,7 @@ body:
       label: |
         Actual Behaviour
       description: |
-        *Tell us what happens instead!!!!!*
+        *Kindly provide the details of what happens instead!!!!!*
       placeholder: |
         Description of the Actual Behaviour.
     validations:
@@ -108,13 +108,13 @@ body:
       label: |
         Steps to Reproduce
       description: |
-        *Provide the set of Steps to reproduce the BUG!!!!!*
+        *Kindly provide the set of steps to reproduce the BUG!!!!!*
 
-        *(TO BE PROVIDED IN THE BELOW FORMAT)*
-        ***Steps to Reproduce the BUG
+        *(USE THE BELOW FORMAT ONLY)*
+        ***`Steps to Reproduce the BUG
         1.
         2.
-        3.***
+        3.`***
       placeholder: |
         Provide Steps in above Format.
     validations:
@@ -138,15 +138,15 @@ body:
     attributes:
       value: |
         ---
-  - type: input
+  - type: textarea
     id: screenshot
     attributes:
       label: |
         BUG Screenshot
       description: |
-        *Provide the Screenshot of the BUG!!!!!*
+        *Kindly provide the screenshot of the BUG!!!!!*
       placeholder: |
-        Link of the Screenshot.
+        Upload the screenshot image.
     validations:
       required: true
   - type: markdown
@@ -174,7 +174,7 @@ body:
       label: |
         BUG Code or Logs (If Applicable)
       description: |
-        *Include the code to reproduce, if relevant or the output!!!!!*
+        *Kindly provide the code to reproduce or the log output!!!!!*
       placeholder: |
         Code or Log generated.
       render: VBA
