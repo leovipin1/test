@@ -22,15 +22,17 @@ body:
       description: |
         *Kindly provide a detailed description regarding the EPIC request!!!!!*
 
-        *(TO BE PROVIDED IN THE BELOW FORMAT) (REMOVE THE SPACE AFTER THE FIRST `***` IN EACH OCCURENCE)* 
-        ****** Background:***
+        ***(TO BE PROVIDED IN THE BELOW FORMAT ONLY)*** 
+        ```
+        ***Background:***
         [Summarise the problem or functionality]
 
-        *** Problem Statement:***
+        ***Problem Statement:***
         [Goals of the Epic or problems being solved]
 
-        *** Requirements:***
+        ***Requirements:***
         [Deliverable components of the Epic]***
+        ```
       placeholder: |
         EPIC information in the above format.
     validations:
@@ -62,10 +64,12 @@ body:
       description: |
         *Kindly provide the list of all the related Features for this EPIC!!!!!*
 
-        *(TO BE PROVIDED IN THE BELOW FORMAT) (REMOVE THE `*` IN EACH LINE)*
-        ****- [] #[Realted Feature Issue No.]
-        *- [] #[Realted Feature Issue No.]
-        *- [] #[Realted Feature Issue No.]***
+        ***(TO BE PROVIDED IN THE BELOW FORMAT ONLY)***
+        ```
+        - [ ] #[Realted Feature Issue No.]
+        - [ ] #[Realted Feature Issue No.]
+        - [ ] #[Realted Feature Issue No.]
+        ```
       placeholder: |
         List of all the EPIC related Features in above format.
     validations:
