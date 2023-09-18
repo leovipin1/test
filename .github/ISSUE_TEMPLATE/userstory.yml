@@ -1,61 +1,113 @@
-name: User Story
-description: Submit a User Story!!!!!
-title: "📇 [UserStory]: "
-labels: user story, incomplete
-assignees:
-  - leovipin1
+name: USERSTORY
+description: SUBMIT A USERSTORY REQUEST!!!!!
+title: "📇 [USS]: "
 body:
   - type: markdown
     attributes:
-      value: Thanks for taking the time to fill out this User Story Form!
-  - type: textarea
+      value: |
+        ---
+  - type: markdown
+    attributes:
+      value: |
+        *THANK YOU FOR TAKING THE TIME TO FILL OUT THIS USERSTORY REQUEST FORM!!!!!*
+  - type: markdown
+    attributes:
+      value: |
+        ---
+  - type: input
     id: feature
     attributes:
-      label: Related Feature
-      description: Specify the Feature to which this User Story is Related!!!!!
-      placeholder: Enter the User Story Number
-      value: |
-        - #[Feature]
-        
-        
-        ---
+      label: |
+        Related FEATURE
+      description: |
+        *Kindly provide the FEATURE Issue No. to which this USERSTORY is related!!!!!*
+
+        ***(TO BE PROVIDED IN THE BELOW FORMAT ONLY)***
+        ```
+        - [ ] #[Related FEATURE Issue No.]
+        ```
+      placeholder: |
+        Related FEATURE Issue No. in above format.
     validations:
       required: true
-  - type: markdown
-    attributes:
-      value: ---
-  - type: textarea
-    id: description
-    attributes:
-      label: Description
-      description: Sumamry of the User Story!!!!!
-      placeholder: Summary of the User Story
-      value: |
-        ***User Story summary:***
-        **As a** *[user concerned by the story]*, **I want** *[goal of the story]*, **so that** *[reason for the story]*.
+    - type: markdown
+      attributes:
+        value: |
+          ---
+    - type: input
+      id: featsep
+      attributes:
+        label: |
+          --- (TO BE REMOVED AFTER SUBMITTING THE FORM)
+        description: |
+          *This will be used as a SEPARATOR in the markdown.* ***KINDLY IGNORE THIS AND DO NOT CHANGE THE VALUE.***
+        value: |
+          ---
+      validations:
+        required: true
+    - type: markdown
+      attributes:
+        value: |
+          ---
+    - type: textarea
+      id: description
+      attributes:
+        label: |
+          Description
+        description: |
+          *Kindly provide the detailed information of the USERSTORY!!!!!*
+
+          ***(TO BE PROVIDED IN THE BELOW FORMAT ONLY)***
+          ```
+          ***User Story summary:***
+          **As a** *[user concerned by the story]*, **I want** *[goal of the story]*, **so that** *[reason for the story]*.
         
-        ***User Story description:***
-        [A detailed description of the User Story]
+          ***User Story description:***
+          [A detailed description of the User Story]
         
-        ***Acceptance criteria:***
-        - [ ] **Given** *[some context]*, **when** *[this action is carried out]*, **then** *[this result happens]*
-        - [ ] **Given** *[some context]*, **when** *[this action is carried out]*, **then** *[this result happens]*
-        - [ ] **Given** *[some context]*, **when** *[this action is carried out]*, **then** *[this result happens]*
-        ---
-    validations:
-      required: true
-  - type: markdown
-    attributes:
-      value: ---
-  - type: textarea
-    id: tasks
-    attributes:
-      label: Related Tasks
-      description: The list of Tasks for this User Story!!!!!
-      value: |
-        List of Tasks
-        - [ ] #[Task]
-        - [ ] #[Task]
-        - [ ] #[Task]
-    validations:
-      required: true
+          ***Acceptance criteria:***
+          - [ ] **Given** *[some context]*, **when** *[this action is carried out]*, **then** *[this result happens]*
+          - [ ] **Given** *[some context]*, **when** *[this action is carried out]*, **then** *[this result happens]*
+          - [ ] **Given** *[some context]*, **when** *[this action is carried out]*, **then** *[this result happens]*
+          ```
+        placeholder: |
+          Describe the USERSTORY in the above format.
+      validations:
+        required: true
+    - type: markdown
+      attributes:
+        value: |
+          ---
+    - type: input
+      id: descsep
+      attributes:
+        label: |
+          --- (TO BE REMOVED AFTER SUBMITTING THE FORM)
+        description: |
+          *This will be used as a SEPARATOR in the markdown.* ***KINDLY IGNORE THIS AND DO NOT CHANGE THE VALUE.***
+        value: |
+          ---
+      validations:
+        required: true
+    - type: markdown
+      attributes:
+        value: |
+          ---
+    - type: textarea
+      id: tasks
+      attributes:
+        label: |
+          Related Tasks
+        description: |
+          *Kindly provide the list of all the related Tasks for this USERSTORY!!!!!*
+
+          ***(TO BE PROVIDED IN THE BELOW FORMAT ONLY)***
+          ```
+          - [ ] #[Related TASK Issue No.]
+          - [ ] #[Related TASK Issue No.]
+          - [ ] #[Related TASK Issue No.]
+          ```
+        placeholder: |
+          List of related Tasks in above format.
+      validations:
+        required: true
