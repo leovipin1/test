@@ -1,0 +1,27 @@
+name: REPOSITORY
+description: SUBMIT A REPOSITORY UPDATE REQUEST!!!!!
+title: "🗃️ [REP]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ---
+  - type: markdown
+    attributes:
+      value: |
+        *THANK YOU FOR TAKING THE TIME TO FILL OUT THIS REPOSITORY UPDATE REQUEST FORM!!!!!*
+  - type: markdown
+    attributes:
+      value: |
+        ---
+  - type: textarea
+    id: description
+    attributes:
+      label: |
+        Description
+      description: |
+        *Kindly provide the detailed information of what needs to be updated in the REPOSITORY!!!!!*
+      placeholder: |
+        Describe the update in detail
+    validations:
+      required: true
