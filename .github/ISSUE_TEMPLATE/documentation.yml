@@ -50,9 +50,12 @@ body:
       label: |
         File Name
       description: |
-        *Kindly provide the name of the file with the extension that is to be created, modified or deleted!!!!!*
+        *Kindly provide the name of the file with extension that is to be created, modified or deleted!!!!!*
 
-        ***Ex: README.md***
+        ***(TO BE PROVIDED ONLY IN THE BELOW FORMAT***
+        ```
+        README.md
+        ```
       placeholder: |
         Name of the File with Extension.
     validations:
@@ -84,7 +87,10 @@ body:
       description: |
         *Kindly provide the full path as per the Github repository hierarchy of the above file!!!!!*
 
-        ***Ex: .github/workflows/***
+        ***(TO BE PROVIDED IN THE BELOW FORMAT ONLY):***
+        ```
+        .github/workflows/
+        ```
       placeholder: |
         Full Path of the file in the Repository.
     validations:
