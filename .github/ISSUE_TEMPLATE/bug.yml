@@ -110,7 +110,7 @@ body:
       description: |
         *Kindly provide the set of steps to reproduce the BUG!!!!!*
 
-        *(USE THE BELOW FORMAT ONLY)*
+        ***(USE THE BELOW FORMAT ONLY)***
         ```
         Steps to Reproduce the BUG
         1. Step 1
