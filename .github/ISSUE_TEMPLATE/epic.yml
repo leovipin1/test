@@ -34,7 +34,7 @@ body:
         [Deliverable components of the Epic]***
         ```
       placeholder: |
-        EPIC information in the above format.
+        Describe the EPIC in the above format.
     validations:
       required: true
   - type: markdown
@@ -60,17 +60,17 @@ body:
     id: features
     attributes:
       label: |
-        Related features
+        Related Features
       description: |
         *Kindly provide the list of all the related Features for this EPIC!!!!!*
 
         ***(TO BE PROVIDED IN THE BELOW FORMAT ONLY)***
         ```
-        - [ ] #[Realted Feature Issue No.]
-        - [ ] #[Realted Feature Issue No.]
-        - [ ] #[Realted Feature Issue No.]
+        - [ ] #[Related FEATURE Issue No.]
+        - [ ] #[Related FEATURE Issue No.]
+        - [ ] #[Related FEATURE Issue No.]
         ```
       placeholder: |
-        List of all the EPIC related Features in above format.
+        List of all the related Features of this EPIC in the above format.
     validations:
       required: true
