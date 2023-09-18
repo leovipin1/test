@@ -22,7 +22,7 @@ body:
       description: |
         *Kindly provide the information that is to be DOCUMENTED!!!!!*
       placeholder: |
-        Information to be Documented.
+        Describe the information to be documented.
     validations:
       required: true
   - type: markdown
@@ -52,7 +52,7 @@ body:
       description: |
         *Kindly provide the name of the file with extension that is to be created, modified or deleted!!!!!*
 
-        ***(TO BE PROVIDED ONLY IN THE BELOW FORMAT***
+        ***(TO BE PROVIDED IN THE BELOW FORMAT ONLY)***
         ```
         README.md
         ```
@@ -87,7 +87,7 @@ body:
       description: |
         *Kindly provide the full path as per the Github repository hierarchy of the above file!!!!!*
 
-        ***(TO BE PROVIDED IN THE BELOW FORMAT ONLY):***
+        ***(TO BE PROVIDED IN THE BELOW FORMAT ONLY)***
         ```
         .github/workflows/
         ```
