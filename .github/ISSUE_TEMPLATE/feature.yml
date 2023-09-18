@@ -1,0 +1,108 @@
+name: FEATURE
+description: SUBMIT A FEATURE REQUEST!!!!!
+title: "✨ [Feature]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ---
+  - type: markdown
+    attributes:
+      value: |
+        *THANK YOU FOR TAKING THE TIME TO FILL OUT THIS FEATURE REQUEST FORM!!!!!*
+  - type: markdown
+    attributes:
+      value: |
+        ---
+  - type: textarea
+    id: epic
+    attributes:
+      label: |
+        Related Epic
+      description: |
+        *Kindly provide the Epic Issue no. to which this FEATURE is realted!!!!!*
+
+        ***(TO BE PROVIDED IN THE BELOW FORMAT ONLY)***
+        ```
+        - [ ] #[Related EPIC Issue No.]
+        ```
+      placeholder: |
+        Related EPIC Issue no. in above format.
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: |
+        ---
+  - type: input
+    id: epicsep
+    attributes:
+      label: |
+        --- (TO BE REMOVED AFTER SUBMITTING THE FORM)
+      description: |
+        *This will be used as a SEPARATOR in the markdown.* ***KINDLY IGNORE THIS AND DO NOT CHANGE THE VALUE.***
+      value: |
+        ---
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: |
+        ---
+  - type: textarea
+    id: description
+    attributes:
+      label: |
+        Description
+      description: |
+        *Kindly provide a detailed description of the FEATURE!!!!!*
+
+        ***(TO BE PROVIDED IN THE BELOW FORMAT ONLY)***
+        ```
+        ***Benefit Hypothesis:***
+        [Proposed measurable benefit to the end-user]
+
+        ***Acceptance Criteria:***
+        [Mention the criterias that would make this Feature acceptable]
+        ```
+      placeholder: |
+        FEATURE information in the above format.
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: |
+        ---
+  - type: input
+    id: descsep
+    attributes:
+      label: |
+        --- (TO BE REMOVED AFTER SUBMITTING THE FORM)
+      description: |
+        *This will be used as a SEPARATOR in the markdown.* ***KINDLY IGNORE THIS AND DO NOT CHANGE THE VALUE.***
+      value: |
+        ---
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: |
+        ---
+  - type: textarea
+    id: userstories
+    attributes:
+      label: |
+        Related userstories
+      description: |
+        *Kindly provide the list of all the related Userstories for this FEATURE!!!!!*
+
+        ***(TO BE PROVIDED IN THE BELOW FORMAT ONLY)***
+        ```
+        - [ ] #[Related USERSTORY Issue No.]
+        - [ ] #[Related USERSTORY Issue No.]
+        - [ ] #[Related USERSTORY Issue No.]
+        ```
+      placeholder: |
+        List of all this FEATURE's related Userstories in the above format.
+    validations:
+      required: true
