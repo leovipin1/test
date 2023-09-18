@@ -89,7 +89,7 @@ body:
 
         ***(TO BE PROVIDED IN THE BELOW FORMAT ONLY)***
         ```
-        .github/workflows/
+        [REPOSITORY-NAME]/.github/workflows/
         ```
       placeholder: |
         Full Path of the file in the Repository.
