@@ -14,7 +14,7 @@ body:
     attributes:
       value: |
         ---
-  - type: textarea
+  - type: input
     id: epic
     attributes:
       label: |
