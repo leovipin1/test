@@ -22,7 +22,7 @@ body:
       description: |
         *Kindly provide a detailed information of the BUG and the reason why you consider it to be a BUG!!!!!*
       placeholder: |
-        BUG's description and the reason.
+        Describe the BUG and the reason.
     validations:
       required: true
   - type: markdown
@@ -50,7 +50,7 @@ body:
       description: |
         *Kindly provide the details of what should happen!!!!!*
       placeholder: |
-        Description of the Expected Behaviour.
+        Describe the Expected Behaviour.
     validations:
       required: true
   - type: markdown
@@ -80,7 +80,7 @@ body:
       description: |
         *Kindly provide the details of what happens instead!!!!!*
       placeholder: |
-        Description of the Actual Behaviour.
+        Describe the Actual Behaviour.
     validations:
       required: true
   - type: markdown
@@ -110,15 +110,15 @@ body:
       description: |
         *Kindly provide the set of steps to reproduce the BUG!!!!!*
 
-        ***(USE THE BELOW FORMAT ONLY)***
+        ***(TO BE PROVIDED IN THE BELOW FORMAT ONLY)***
         ```
         Steps to Reproduce the BUG
-        1. Step 1
-        2. Step 2
-        3. Step 3
+        1.
+        2.
+        3.
         ```
       placeholder: |
-        Provide Steps in above Format.
+        Describe the steps in above format.
     validations:
       required: true
   - type: markdown
