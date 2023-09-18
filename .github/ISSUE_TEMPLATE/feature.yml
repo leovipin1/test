@@ -1,6 +1,6 @@
 name: FEATURE
 description: SUBMIT A FEATURE REQUEST!!!!!
-title: "✨ [Feature]: "
+title: "✨ [FET]: "
 body:
   - type: markdown
     attributes:
@@ -18,16 +18,16 @@ body:
     id: epic
     attributes:
       label: |
-        Related Epic
+        Related EPIC
       description: |
-        *Kindly provide the Epic Issue no. to which this FEATURE is realted!!!!!*
+        *Kindly provide the EPIC Issue no. to which this FEATURE is realted!!!!!*
 
         ***(TO BE PROVIDED IN THE BELOW FORMAT ONLY)***
         ```
         - [ ] #[Related EPIC Issue No.]
         ```
       placeholder: |
-        Related EPIC Issue no. in above format.
+        Related EPIC Issue no. in the above format.
     validations:
       required: true
   - type: markdown
@@ -66,7 +66,7 @@ body:
         [Mention the criterias that would make this Feature acceptable]
         ```
       placeholder: |
-        FEATURE information in the above format.
+        Describe the FEATURE in the above format.
     validations:
       required: true
   - type: markdown
@@ -92,7 +92,7 @@ body:
     id: userstories
     attributes:
       label: |
-        Related userstories
+        Related Userstories
       description: |
         *Kindly provide the list of all the related Userstories for this FEATURE!!!!!*
 
@@ -103,6 +103,6 @@ body:
         - [ ] #[Related USERSTORY Issue No.]
         ```
       placeholder: |
-        List of all this FEATURE's related Userstories in the above format.
+        List of all the Userstories of this FEATURE in the above format.
     validations:
       required: true
