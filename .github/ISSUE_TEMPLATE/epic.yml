@@ -1,54 +1,72 @@
 name: EPIC
-description: Submit an EPIC request!!!!!
+description: SUBMIT AN EPIC REQUEST!!!!!
 title: "🏔️ [EPC]: "
 body:
   - type: markdown
     attributes:
-      value: Thank you for taking the time to fill out this EPIC request form!!!!!
+      value: |
+        ---
+  - type: markdown
+    attributes:
+      value: |
+        *THANK YOU FOR TAKING THE TIME TO FILL OUT THIS EPIC REQUEST FORM!!!!!*
+  - type: markdown
+    attributes:
+      value: |
+        ---
   - type: textarea
     id: description
     attributes:
-      label: Description
+      label: |
+        Description
       description: |
-        Detailed information regarding the EPIC request!!!!!
+        *Kindly provide a detailed description regarding the EPIC request!!!!!*
 
-        Format: (COPY THE BELOW AND UPDATE ACCORDINGLY) (REMOVE THE SPACE AFTER THE FIRST `***` IN EACH LINE)
-        *** Background:***
+        *(TO BE PROVIDED IN THE BELOW FORMAT) (REMOVE THE SPACE AFTER THE FIRST `***` IN EACH OCCURENCE)* 
+        ****** Background:***
         [Summarise the problem or functionality]
 
         *** Problem Statement:***
         [Goals of the Epic or problems being solved]
 
         *** Requirements:***
-        [Deliverable components of the Epic]
-      placeholder: Provide the EPIC details in the above format.
+        [Deliverable components of the Epic]***
+      placeholder: |
+        EPIC information in the above format.
     validations:
       required: true
   - type: markdown
     attributes:
-      value: ---
+      value: |
+        ---
   - type: input
     id: descsep
     attributes:
-      label: --- (TO BE REMOVED AFTER SUBMITTING THE FORM)
-      description: This will be used as a SEPERATOR in the markdown. KINDLY IGNORE THIS AND DO NOT CHANGE THE VALUE.
-      value: ---
+      label: |
+        --- (TO BE REMOVED AFTER SUBMITTING THE FORM)
+      description: |
+        *This will be used as a SEPARATOR in the markdown.* ***KINDLY IGNORE THIS AND DO NOT CHANGE THE VALUE.***
+      value: |
+        ---
     validations:
       required: true
   - type: markdown
     attributes:
-      value: ---
+      value: |
+        ---
   - type: textarea
     id: features
     attributes:
-      label: Related Features
+      label: |
+        Related features
       description: |
-        The list of related Features for this EPIC!!!!!
+        *Kindly provide the list of all the related Features for this EPIC!!!!!*
 
-        Format: (PROVIDE THE LIST IN BELOW FORMAT) (REMOVE THE `*` TO PROVIDE THE LIST)
-        *- [ ] #[Related Feature]
-        *- [ ] #[Related Feature]
-        *- [ ] #[Related Feature]
-      placeholder: Add all the related Features for this EPIC in the above format.
+        *(TO BE PROVIDED IN THE BELOW FORMAT) (REMOVE THE `*` IN EACH LINE)*
+        ****- [] #[Realted Feature Issue No.]
+        *- [] #[Realted Feature Issue No.]
+        *- [] #[Realted Feature Issue No.]***
+      placeholder: |
+        List of all the EPIC related Features in above format.
     validations:
       required: true
