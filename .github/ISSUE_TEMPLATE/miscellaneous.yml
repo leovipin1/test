@@ -1,0 +1,27 @@
+name: MISCELLANEOUS
+description: SUBMIT A REQUEST WHICH CANNOT BE CATEGORISED IN ANY OF OTHER ISSUE TYPES!!!!!
+title: "🤔 [Misc]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ---
+  - type: markdown
+    attributes:
+      value: |
+        *THANK YOU FOR TAKING TIME TO FILL OUT THE REQUEST FORM!!!!!*
+  - type: markdown
+    attributes:
+      value: |
+        ---
+  - type: markdown
+    id: description
+    attributes:
+      label: |
+        Description
+      description: |
+        *Kindly provide a detailed description of what needs to be done!!!!!*
+      placeholder: |
+        Describe the work in detail.
+    validations:
+      required: true
