@@ -20,7 +20,7 @@ body:
       label: |
         Description
       description: |
-        ###### Kindly provide a detailed information of the BUG and the reason why you consider it to be a BUG!!!!!
+        ###### KINDLY PROVIDE A DETAILED INFORMATION OF THE BUG AND THE REASON WHY YOU CONSIDER IT TO BE A BUG!!!!!
       placeholder: |
         Describe the BUG and the reason.
     validations:
@@ -35,7 +35,7 @@ body:
       label: |
         --- (TO BE REMOVED AFTER SUBMITTING THE FORM)
       description: |
-        ###### This will be used as a SEPARATOR in the markdown.
+        ###### THIS WILL BE USED AS A SEPARATOR IN THE MARKDOWN.
         ***KINDLY IGNORE THIS AND DO NOT CHANGE THE VALUE.***
       value: ---
     validations:
@@ -64,7 +64,7 @@ body:
       label: |
         --- (TO BE REMOVED AFTER SUBMITTING THE FORM)
       description: |
-        ###### This will be used as a SEPARATOR in the markdown.
+        ###### THIS WILL BE USED AS A SEPARATOR IN THE MARKDOWN.
         ***KINDLY IGNORE THIS AND DO NOT CHANGE THE VALUE.***
       value: |
         ---
@@ -80,7 +80,7 @@ body:
       label: |
         Actual Behaviour
       description: |
-        ###### Kindly provide the details of what happens instead!!!!!
+        ###### KINDLY PROVIDE THE DETAILS OF WHAT HAPPENS INSTEAD!!!!!
       placeholder: |
         Describe the Actual Behaviour.
     validations:
@@ -95,7 +95,7 @@ body:
       label: |
         --- (TO BE REMOVED AFTER SUBMITTING THE FORM)
       description: |
-        ###### This will be used as a SEPARATOR in the markdown.
+        ###### THIS WILL BE USED AS A SEPARATOR IN THE MARKDOWN.
         ***KINDLY IGNORE THIS AND DO NOT CHANGE THE VALUE.***
       value: |
         ---
@@ -111,7 +111,7 @@ body:
       label: |
         Steps to Reproduce
       description: |
-        ###### Kindly provide the set of steps to reproduce the BUG!!!!!
+        ###### KINDLY PROVIDE THE SET OF STEPS TO REPRODUCE THE BUG!!!!!
 
         ***(TO BE PROVIDED IN THE BELOW FORMAT ONLY)***
         ```
@@ -134,7 +134,7 @@ body:
       label: |
         --- (TO BE REMOVED AFTER SUBMITTING THE FORM)
       description: |
-        ###### This will be used as a SEPARATOR in the markdown.
+        ###### THIS WILL BE USED AS A SEPARATOR IN THE MARKDOWN.
         ***KINDLY IGNORE THIS AND DO NOT CHANGE THE VALUE.***
       value: |
         ---
@@ -150,7 +150,7 @@ body:
       label: |
         BUG Screenshot
       description: |
-        ###### Kindly provide the screenshot of the BUG!!!!!
+        ###### KINDLY PROVIDE THE SCREENSHOT OF THE BUG!!!!!
       placeholder: |
         Upload the screenshot image.
     validations:
@@ -165,7 +165,7 @@ body:
       label: |
         --- (TO BE REMOVED AFTER SUBMITTING THE FORM)
       description: |
-        ###### This will be used as a SEPARATOR in the markdown.
+        ###### THIS WILL BE USED AS A SEPARATOR IN THE MARKDOWN.
         ***KINDLY IGNORE THIS AND DO NOT CHANGE THE VALUE.***
       value: |
         ---
@@ -181,7 +181,7 @@ body:
       label: |
         BUG Code or Logs (If Applicable)
       description: |
-        ###### Kindly provide the code to reproduce or the log output!!!!!
+        ###### KINDLY PROVIDE THE CODE TO REPRODUCE OR THE LOG OUTPUT!!!!!
       placeholder: |
         Code or Log generated.
       render: VBA
