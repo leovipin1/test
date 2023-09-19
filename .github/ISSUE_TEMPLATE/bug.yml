@@ -9,7 +9,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        **THANK YOU FOR TAKING THE TIME TO FILL OUT THIS BUG REPORT FORM!!!!!**
+        ###### THANK YOU FOR TAKING THE TIME TO FILL OUT THIS BUG REPORT FORM!!!!!
   - type: markdown
     attributes:
       value: |
@@ -20,7 +20,7 @@ body:
       label: |
         Description
       description: |
-        *Kindly provide a detailed information of the BUG and the reason why you consider it to be a BUG!!!!!*
+        ###### Kindly provide a detailed information of the BUG and the reason why you consider it to be a BUG!!!!!
       placeholder: |
         Describe the BUG and the reason.
     validations:
@@ -35,7 +35,7 @@ body:
       label: |
         --- (TO BE REMOVED AFTER SUBMITTING THE FORM)
       description: |
-        *This will be used as a SEPARATOR in the markdown.* ***KINDLY IGNORE THIS AND DO NOT CHANGE THE VALUE.***
+        ###### This will be used as a SEPARATOR in the markdown. KINDLY IGNORE THIS AND DO NOT CHANGE THE VALUE.
       value: ---
     validations:
       required: true
@@ -48,7 +48,7 @@ body:
       label: |
         Expected Behaviour
       description: |
-        *Kindly provide the details of what should happen!!!!!*
+        ###### Kindly provide the details of what should happen!!!!!
       placeholder: |
         Describe the Expected Behaviour.
     validations:
@@ -63,7 +63,7 @@ body:
       label: |
         --- (TO BE REMOVED AFTER SUBMITTING THE FORM)
       description: |
-        *This will be used as a SEPARATOR in the markdown.* ***KINDLY IGNORE THIS AND DO NOT CHANGE THE VALUE.***
+        ###### This will be used as a SEPARATOR in the markdown. KINDLY IGNORE THIS AND DO NOT CHANGE THE VALUE.
       value: |
         ---
     validations:
@@ -78,7 +78,7 @@ body:
       label: |
         Actual Behaviour
       description: |
-        *Kindly provide the details of what happens instead!!!!!*
+        ###### Kindly provide the details of what happens instead!!!!!
       placeholder: |
         Describe the Actual Behaviour.
     validations:
@@ -93,7 +93,7 @@ body:
       label: |
         --- (TO BE REMOVED AFTER SUBMITTING THE FORM)
       description: |
-        *This will be used as a SEPARATOR in the markdown.* ***KINDLY IGNORE THIS AND DO NOT CHANGE THE VALUE.***
+        ###### This will be used as a SEPARATOR in the markdown. KINDLY IGNORE THIS AND DO NOT CHANGE THE VALUE.
       value: |
         ---
     validations:
@@ -108,7 +108,7 @@ body:
       label: |
         Steps to Reproduce
       description: |
-        *Kindly provide the set of steps to reproduce the BUG!!!!!*
+        ###### Kindly provide the set of steps to reproduce the BUG!!!!!
 
         ***(TO BE PROVIDED IN THE BELOW FORMAT ONLY)***
         ```
@@ -131,7 +131,7 @@ body:
       label: |
         --- (TO BE REMOVED AFTER SUBMITTING THE FORM)
       description: |
-        *This will be used as a SEPARATOR in the markdown.* ***KINDLY IGNORE THIS AND DO NOT CHANGE THE VALUE.***
+        ###### This will be used as a SEPARATOR in the markdown. KINDLY IGNORE THIS AND DO NOT CHANGE THE VALUE.
       value: |
         ---
     validations:
@@ -146,7 +146,7 @@ body:
       label: |
         BUG Screenshot
       description: |
-        *Kindly provide the screenshot of the BUG!!!!!*
+        ###### Kindly provide the screenshot of the BUG!!!!!
       placeholder: |
         Upload the screenshot image.
     validations:
@@ -161,7 +161,7 @@ body:
       label: |
         --- (TO BE REMOVED AFTER SUBMITTING THE FORM)
       description: |
-        *This will be used as a SEPARATOR in the markdown.* ***KINDLY IGNORE THIS AND DO NOT CHANGE THE VALUE.***
+        ###### This will be used as a SEPARATOR in the markdown. KINDLY IGNORE THIS AND DO NOT CHANGE THE VALUE.
       value: |
         ---
     validations:
@@ -176,7 +176,7 @@ body:
       label: |
         BUG Code or Logs (If Applicable)
       description: |
-        *Kindly provide the code to reproduce or the log output!!!!!*
+        ###### Kindly provide the code to reproduce or the log output!!!!!
       placeholder: |
         Code or Log generated.
       render: VBA
