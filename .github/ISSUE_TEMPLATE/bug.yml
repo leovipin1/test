@@ -18,11 +18,11 @@ body:
     id: description
     attributes:
       label: |
-        Description
+        DESCRIPTION
       description: |
         ###### KINDLY PROVIDE A DETAILED INFORMATION OF THE BUG AND THE REASON WHY YOU CONSIDER IT TO BE A BUG!!!!!
       placeholder: |
-        Describe the BUG and the reason.
+        DESCRIBE THE BUG AND THE REASON.
     validations:
       required: true
   - type: markdown
@@ -47,11 +47,11 @@ body:
     id: expbeh
     attributes:
       label: |
-        Expected Behaviour
+        EXPECTED BEHAVIOUR
       description: |
-        ###### Kindly provide the details of what should happen!!!!!
+        ###### KINDLY PROVIDE THE DETAILS OF WHAT SHOULD HAPPEN!!!!!
       placeholder: |
-        Describe the Expected Behaviour.
+        DESCRIBE THE EXPECTED BEHAVIOUR.
     validations:
       required: true
   - type: markdown
@@ -78,11 +78,11 @@ body:
     id: actbeh
     attributes:
       label: |
-        Actual Behaviour
+        ACTUAL BEHAVIOUR
       description: |
         ###### KINDLY PROVIDE THE DETAILS OF WHAT HAPPENS INSTEAD!!!!!
       placeholder: |
-        Describe the Actual Behaviour.
+        DESCRIBE THE ACTUAL BEHAVIOUR.
     validations:
       required: true
   - type: markdown
@@ -109,19 +109,19 @@ body:
     id: steps
     attributes:
       label: |
-        Steps to Reproduce
+        STEPS TO REPRODUCE
       description: |
         ###### KINDLY PROVIDE THE SET OF STEPS TO REPRODUCE THE BUG!!!!!
 
         ***(TO BE PROVIDED IN THE BELOW FORMAT ONLY)***
         ```
         Steps to Reproduce the BUG
-        1.
-        2.
-        3.
+        1. Step 1
+        2. Step 2
+        3. Step 3
         ```
       placeholder: |
-        Describe the steps in above format.
+        DESCRIBE THE STEPS IN ABOVE FORMAT.
     validations:
       required: true
   - type: markdown
@@ -148,11 +148,11 @@ body:
     id: screenshot
     attributes:
       label: |
-        BUG Screenshot
+        BUG SCREENSHOT
       description: |
         ###### KINDLY PROVIDE THE SCREENSHOT OF THE BUG!!!!!
       placeholder: |
-        Upload the screenshot image.
+        UPLOAD THE SCREENSHOT IMAGE.
     validations:
       required: true
   - type: markdown
@@ -179,11 +179,11 @@ body:
     id: log
     attributes:
       label: |
-        BUG Code or Logs (If Applicable)
+        BUG CODE OR LOGS (IF APPLICABLE)
       description: |
         ###### KINDLY PROVIDE THE CODE TO REPRODUCE OR THE LOG OUTPUT!!!!!
       placeholder: |
-        Code or Log generated.
+        CODE OR LOG GENERATED.
       render: VBA
     validations:
       required: false
