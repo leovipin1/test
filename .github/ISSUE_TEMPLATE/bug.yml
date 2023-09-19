@@ -187,3 +187,19 @@ body:
       render: VBA
     validations:
       required: false
+  - type: markdown
+    attributes:
+      value: |
+        ---
+  - type: input
+    id: logssep
+    attributes:
+      label: |
+        --- (TO BE REMOVED AFTER SUBMITTING THE FORM)
+      description: |
+        ###### THIS WILL BE USED AS A SEPARATOR IN THE MARKDOWN.
+        ***KINDLY IGNORE THIS AND DO NOT CHANGE THE VALUE.***
+      value: |
+        ---
+    validations:
+      required: true
