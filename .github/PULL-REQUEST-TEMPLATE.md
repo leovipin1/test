@@ -59,8 +59,8 @@ Fixes  #(BUG)
 - [ ] My PR follows the **[Contributing Guidelines](../blob/main/CONTRIBUTING.md)** of this repository.
 - [ ] My document follows the **[Documentation Guidelines](../blob/main/DOCUMENTATION-STANDARDS.md)** of this repository.
 - [ ] Pull the **`main`** branch after merging this PR. &rarr; ***`To be performed after this PR is merged.`***
-- [ ] After the pull of **`main`** branch execute the below command to delete the local branches that no longer exist on remote. &rarr; ***`To be performed after this PR is merged.`***
-   
+- [ ] Execute the below command to delete the local branch. &rarr; ***`To be performed after this PR is merged.`***
+ 
    ***`git branch -vv | grep ': gone]' | grep -v '\*' | awk '{ print $1; }' | xargs -r git branch -d***.`***
 
 ---
@@ -73,3 +73,4 @@ Fixes  #(BUG)
 
 ### After Screenshot:
 <!---Kindly provide a screenshot of the output that is occurring after this PR will be merged else specify ***`Not Applicable`***--->
+
