@@ -9,7 +9,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        *THANK YOU FOR TAKING TIME TO FILL OUT THE REQUEST FORM!!!!!*
+        ######THANK YOU FOR TAKING TIME TO FILL OUT THE REQUEST FORM!!!!!
   - type: markdown
     attributes:
       value: |
