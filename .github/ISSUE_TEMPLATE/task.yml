@@ -1,5 +1,5 @@
 name: TASK
-description: SUBMIT A TASK REQUEST!!!!!
+description: SUBMIT A TASK REQUEST !!!!!
 title: "📝 [TSK]: "
 body:
   - type: markdown
@@ -9,7 +9,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        ###### THANK YOU FOR TAKING THE TIME TO FILL OUT THIS TASK REQUEST FORM!!!!!
+        ###### THANK YOU FOR TAKING THE TIME TO FILL OUT THIS TASK REQUEST FORM !!!!!
   - type: markdown
     attributes:
       value: |
@@ -20,7 +20,7 @@ body:
       label: |
         RELATED USERSTORY
       description: |
-        ###### KINDLY PROVIDE THE USERSTORY ISSUE NO. TO WHICH THIS TASK IS RELATED!!!!!
+        ###### KINDLY PROVIDE THE USERSTORY ISSUE NO. TO WHICH THIS TASK IS RELATED !!!!!
 
         ***(TO BE PROVIDED IN THE BELOW FORMAT ONLY)***
         ```
@@ -56,7 +56,7 @@ body:
       label: |
         DESCRIPTION
       description: |
-        ###### KINDLY PROVIDE A DETAILED INFORMATION OF WHAT NEEDS TO BE ACHIEVED IN THIS TASK!!!!!
+        ###### KINDLY PROVIDE A DETAILED INFORMATION OF WHAT NEEDS TO BE ACHIEVED IN THIS TASK !!!!!
       placeholder: |
         DESCRIBE THE TASK IN DETAIL.
     validations:
