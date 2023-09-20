@@ -9,7 +9,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        #### THANK YOU FOR TAKING THE TIME TO FILL OUT THIS EPIC REQUEST FORM!!!!!
+        ###### THANK YOU FOR TAKING THE TIME TO FILL OUT THIS EPIC REQUEST FORM!!!!!
   - type: markdown
     attributes:
       value: |
@@ -18,23 +18,23 @@ body:
     id: description
     attributes:
       label: |
-        Description
+        DESCRIPTION
       description: |
-        *Kindly provide a detailed description regarding the EPIC request!!!!!*
+        ###### KINDLY PROVIDE A DETAILED DESCRIPTION REGARDING THE EPIC REQUEST!!!!!
 
         ***(TO BE PROVIDED IN THE BELOW FORMAT ONLY)*** 
         ```
-        ***Background:***
-        [Summarise the problem or functionality]
+        ***BACKGROUND:***
+        [SUMMARISE THE PROBLEM OR FUNCTIONALITY]
 
-        ***Problem Statement:***
-        [Goals of the Epic or problems being solved]
+        ***PROBLEM STATEMENT:***
+        [GOALS OF THE EPIC OR PROBLEMS BEING SOLVED]
 
-        ***Requirements:***
-        [Deliverable components of the Epic]***
+        ***REQUIREMENTS:***
+        [DELIVERABLE COMPONENTS OF THE EPIC]***
         ```
       placeholder: |
-        Describe the EPIC in the above format.
+        DESCRIBE THE EPIC IN THE ABOVE FORMAT.
     validations:
       required: true
   - type: markdown
@@ -47,7 +47,8 @@ body:
       label: |
         --- (TO BE REMOVED AFTER SUBMITTING THE FORM)
       description: |
-        *This will be used as a SEPARATOR in the markdown.* ***KINDLY IGNORE THIS AND DO NOT CHANGE THE VALUE.***
+        ###### THIS WILL BE USED AS A SEPARATOR IN THE MARKDOWN.
+        ***KINDLY IGNORE THIS AND DO NOT CHANGE THE VALUE.***
       value: |
         ---
     validations:
@@ -60,17 +61,37 @@ body:
     id: features
     attributes:
       label: |
-        Related Features
+        RELATED FEATURES
       description: |
-        *Kindly provide the list of all the related Features for this EPIC!!!!!*
+        ###### KINDLY PROVIDE THE LIST OF ALL THE RELATED FEATURES FOR THIS EPIC!!!!!
 
         ***(TO BE PROVIDED IN THE BELOW FORMAT ONLY)***
         ```
-        - [ ] #[Related FEATURE Issue No.]
-        - [ ] #[Related FEATURE Issue No.]
-        - [ ] #[Related FEATURE Issue No.]
+        - [ ] #[RELATED FEATURE ISSUE NO.]
+        - [ ] #[RELATED FEATURE ISSUE NO.]
+        - [ ] #[RELATED FEATURE ISSUE NO.]
         ```
       placeholder: |
-        List of all the related Features of this EPIC in the above format.
+        LIST OF ALL THE RELATED FEATURES OF THIS EPIC IN THE ABOVE FORMAT.
     validations:
       required: true
+  - type: markdown
+    attributes:
+      value: |
+        ---
+  - type: input
+    id: rfetsep
+    attributes:
+      label: |
+        --- (TO BE REMOVED AFTER SUBMITTING THE FORM)
+      description: |
+        ###### THIS WILL BE USED AS A SEPARATOR IN THE MARKDOWN.
+        ***KINDLY IGNORE THIS AND DO NOT CHANGE THE VALUE.***
+      value: |
+        ---
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: |
+        ---
