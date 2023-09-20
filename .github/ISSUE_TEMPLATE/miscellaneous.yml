@@ -1,6 +1,6 @@
 name: MISCELLANEOUS
 description: SUBMIT A REQUEST WHICH CANNOT BE CATEGORISED IN ANY OF OTHER ISSUE TYPES!!!!!
-title: "🤔 [Misc]: "
+title: "🤔 [MSC]: "
 body:
   - type: markdown
     attributes:
@@ -9,7 +9,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        <em>###### THANK YOU FOR TAKING TIME TO FILL OUT THE REQUEST FORM!!!!!</em>
+        ###### THANK YOU FOR TAKING TIME TO FILL OUT THE REQUEST FORM!!!!!
   - type: markdown
     attributes:
       value: |
@@ -18,10 +18,30 @@ body:
     id: description
     attributes:
       label: |
-        Description
+        DESCRIPTION
       description: |
-        *Kindly provide a detailed description of what needs to be done!!!!!*
+        ###### KINDLY PROVIDE A DETAILED DESCRIPTION OF WHAT NEEDS TO BE DONE!!!!!
       placeholder: |
-        Describe the work in detail.
+        DESCRIBE THE WORK IN DETAIL.
     validations:
       required: true
+  - type: markdown
+    attributes:
+      value: |
+        ---
+  - type: input
+    id: descsep
+    attributes:
+      label: |
+        --- (TO BE REMOVED AFTER SUBMITTING THE FORM)
+      description: |
+        ###### THIS WILL BE USED AS A SEPARATOR IN THE MARKDOWN.
+        ***KINDLY IGNORE THIS AND DO NOT CHANGE THE VALUE.***
+      value: |
+        ---
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: |
+        ---
