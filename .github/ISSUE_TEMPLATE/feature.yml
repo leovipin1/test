@@ -9,7 +9,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        ##### THANK YOU FOR TAKING THE TIME TO FILL OUT THIS FEATURE REQUEST FORM!!!!!
+        ###### THANK YOU FOR TAKING THE TIME TO FILL OUT THIS FEATURE REQUEST FORM!!!!!
   - type: markdown
     attributes:
       value: |
@@ -18,16 +18,16 @@ body:
     id: epic
     attributes:
       label: |
-        Related EPIC
+        RELATED EPIC
       description: |
-        *Kindly provide the EPIC Issue no. to which this FEATURE is realted!!!!!*
+        ###### KINDLY PROVIDE THE EPIC ISSUE NO. TO WHICH THIS FEATURE IS REALTED!!!!!
 
         ***(TO BE PROVIDED IN THE BELOW FORMAT ONLY)***
         ```
-        - [ ] #[Related EPIC Issue No.]
+        - [ ] #[RELATED EPIC ISSUE NO.]
         ```
       placeholder: |
-        Related EPIC Issue no. in the above format.
+        RELATED EPIC ISSUE NO. IN THE ABOVE FORMAT.
     validations:
       required: true
   - type: markdown
@@ -40,7 +40,8 @@ body:
       label: |
         --- (TO BE REMOVED AFTER SUBMITTING THE FORM)
       description: |
-        *This will be used as a SEPARATOR in the markdown.* ***KINDLY IGNORE THIS AND DO NOT CHANGE THE VALUE.***
+        ###### THIS WILL BE USED AS A SEPARATOR IN THE MARKDOWN.
+        ***KINDLY IGNORE THIS AND DO NOT CHANGE THE VALUE.***
       value: |
         ---
     validations:
@@ -53,20 +54,20 @@ body:
     id: description
     attributes:
       label: |
-        Description
+        DESCRIPTION
       description: |
-        *Kindly provide a detailed description of the FEATURE!!!!!*
+        ###### KINDLY PROVIDE A DETAILED DESCRIPTION OF THE FEATURE!!!!!
 
         ***(TO BE PROVIDED IN THE BELOW FORMAT ONLY)***
         ```
-        ***Benefit Hypothesis:***
-        [Proposed measurable benefit to the end-user]
+        ***BENEFIT HYPOTHESIS:***
+        [PROPOSED MEASURABLE BENEFIT TO THE END-USER]
 
-        ***Acceptance Criteria:***
-        [Mention the criterias that would make this Feature acceptable]
+        ***ACCEPTANCE CRITERIA:***
+        [MENTION THE CRITERIAS THAT WOULD MAKE THIS FEATURE ACCEPTABLE]
         ```
       placeholder: |
-        Describe the FEATURE in the above format.
+        DESCRIBE THE FEATURE IN THE ABOVE FORMAT.
     validations:
       required: true
   - type: markdown
@@ -79,7 +80,8 @@ body:
       label: |
         --- (TO BE REMOVED AFTER SUBMITTING THE FORM)
       description: |
-        *This will be used as a SEPARATOR in the markdown.* ***KINDLY IGNORE THIS AND DO NOT CHANGE THE VALUE.***
+        ###### THIS WILL BE USED AS A SEPARATOR IN THE MARKDOWN.
+        ***KINDLY IGNORE THIS AND DO NOT CHANGE THE VALUE.***
       value: |
         ---
     validations:
@@ -92,17 +94,37 @@ body:
     id: userstories
     attributes:
       label: |
-        Related Userstories
+        RELATED USERSTORIES
       description: |
-        *Kindly provide the list of all the related Userstories for this FEATURE!!!!!*
+        ###### KINDLY PROVIDE THE LIST OF ALL THE RELATED USERSTORIES FOR THIS FEATURE!!!!!
 
         ***(TO BE PROVIDED IN THE BELOW FORMAT ONLY)***
         ```
-        - [ ] #[Related USERSTORY Issue No.]
-        - [ ] #[Related USERSTORY Issue No.]
-        - [ ] #[Related USERSTORY Issue No.]
+        - [ ] #[RELATED USERSTORY ISSUE NO.]
+        - [ ] #[RELATED USERSTORY ISSUE NO.]
+        - [ ] #[RELATED USERSTORY ISSUE NO.]
         ```
       placeholder: |
-        List of all the Userstories of this FEATURE in the above format.
+        LIST OF ALL THE RELATED USERSTORIES OF THIS FEATURE IN THE ABOVE FORMAT.
     validations:
       required: true
+  - type: markdown
+    attributes:
+      value: |
+        ---
+  - type: input
+    id: russsep
+    attributes:
+      label: |
+        --- (TO BE REMOVED AFTER SUBMITTING THE FORM)
+      description: |
+        ###### THIS WILL BE USED AS A SEPARATOR IN THE MARKDOWN.
+        ***KINDLY IGNORE THIS AND DO NOT CHANGE THE VALUE.***
+      value: |
+        ---
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: |
+        ---
