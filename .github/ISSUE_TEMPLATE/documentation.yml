@@ -9,7 +9,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        ***THANK YOU FOR TAKING THE TIME TO FILL OUT THIS DOCUMENTATION REQUEST FORM!!!!!***
+        ###### THANK YOU FOR TAKING THE TIME TO FILL OUT THIS DOCUMENTATION REQUEST FORM!!!!!
   - type: markdown
     attributes:
       value: |
@@ -18,11 +18,11 @@ body:
     id: description
     attributes:
       label: |
-        Description
+        DESCRIPTION
       description: |
-        *Kindly provide the information that is to be DOCUMENTED!!!!!*
+        ###### KINDLY PROVIDE THE INFORMATION THAT IS TO BE DOCUMENTED!!!!!
       placeholder: |
-        Describe the information to be documented.
+        DESCRIBE THE INFORMATION TO BE DOCUMENTED.
     validations:
       required: true
   - type: markdown
@@ -35,7 +35,8 @@ body:
       label: |
         --- (TO BE REMOVED AFTER SUBMITTING THE FORM)
       description: |
-        *This will be used as a SEPARATOR in the markdown.* ***KINDLY IGNORE THIS AND DO NOT CHANGE THE VALUE.***
+        ###### THIS WILL BE USED AS A SEPARATOR IN THE MARKDOWN.
+        ***KINDLY IGNORE THIS AND DO NOT CHANGE THE VALUE.***
       value: |
         ---
     validations:
@@ -48,16 +49,16 @@ body:
     id: filename
     attributes:
       label: |
-        File Name
+        FILE NAME
       description: |
-        *Kindly provide the name of the file with extension that is to be created, modified or deleted!!!!!*
+        ###### KINDLY PROVIDE THE NAME OF THE FILE WITH EXTENSION THAT IS TO BE CREATED, MODIFIED OR DELETED!!!!!
 
         ***(TO BE PROVIDED IN THE BELOW FORMAT ONLY)***
         ```
         README.md
         ```
       placeholder: |
-        Name of the File with Extension.
+        NAME OF THE FILE WITH EXTENSION.
     validations:
       required: true
   - type: markdown
@@ -70,7 +71,8 @@ body:
       label: |
         --- (TO BE REMOVED AFTER SUBMITTING THE FORM)
       description: |
-        *This will be used as a SEPARATOR in the markdown.* ***KINDLY IGNORE THIS AND DO NOT CHANGE THE VALUE.***
+        ###### THIS WILL BE USED AS A SEPARATOR IN THE MARKDOWN.
+        ***KINDLY IGNORE THIS AND DO NOT CHANGE THE VALUE.***
       value: |
         ---
     validations:
@@ -83,15 +85,31 @@ body:
     id: filepath
     attributes:
       label: |
-        File Path
+        FILE PATH
       description: |
-        *Kindly provide the full path as per the Github repository hierarchy of the above file!!!!!*
+        ###### KINDLY PROVIDE THE FULL PATH AS PER THE GITHUB REPOSITORY HIERARCHY OF THE ABOVE FILE!!!!!
 
         ***(TO BE PROVIDED IN THE BELOW FORMAT ONLY)***
         ```
         [REPOSITORY-NAME]/.github/workflows/
         ```
       placeholder: |
-        Full Path of the file in the Repository.
+        FULL PATH OF THE FILE IN THE ABOVE FORMAT.
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: |
+        ---
+  - type: input
+    id: 
+    attributes:
+      label: |
+        --- (TO BE REMOVED AFTER SUBMITTING THE FORM)
+      description: |
+        ###### THIS WILL BE USED AS A SEPARATOR IN THE MARKDOWN.
+        ***KINDLY IGNORE THIS AND DO NOT CHANGE THE VALUE.***
+      value: |
+        ---
     validations:
       required: true
