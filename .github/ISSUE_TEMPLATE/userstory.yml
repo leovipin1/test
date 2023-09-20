@@ -9,7 +9,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        *THANK YOU FOR TAKING THE TIME TO FILL OUT THIS USERSTORY REQUEST FORM!!!!!*
+        ###### THANK YOU FOR TAKING THE TIME TO FILL OUT THIS USERSTORY REQUEST FORM!!!!!
   - type: markdown
     attributes:
       value: |
@@ -18,16 +18,16 @@ body:
     id: feature
     attributes:
       label: |
-        Related FEATURE
+        RELATED FEATURE
       description: |
-        *Kindly provide the FEATURE Issue No. to which this USERSTORY is related!!!!!*
+        ###### KINDLY PROVIDE THE FEATURE ISSUE NO. TO WHICH THIS USERSTORY IS RELATED!!!!!
 
         ***(TO BE PROVIDED IN THE BELOW FORMAT ONLY)***
         ```
-        - [ ] #[Related FEATURE Issue No.]
+        - [ ] #[RELATED FEATURE ISSUE NO.]
         ```
       placeholder: |
-        Related FEATURE Issue No. in above format.
+        RELATED FEATURE ISSUE NO. IN ABOVE FORMAT.
     validations:
       required: true
   - type: markdown
@@ -40,7 +40,8 @@ body:
       label: |
         --- (TO BE REMOVED AFTER SUBMITTING THE FORM)
       description: |
-        *This will be used as a SEPARATOR in the markdown.* ***KINDLY IGNORE THIS AND DO NOT CHANGE THE VALUE.***
+        ###### THIS WILL BE USED AS A SEPARATOR IN THE MARKDOWN.
+        ***KINDLY IGNORE THIS AND DO NOT CHANGE THE VALUE.***
       value: |
         ---
     validations:
@@ -53,25 +54,25 @@ body:
     id: description
     attributes:
       label: |
-        Description
+        DESCRIPTION
       description: |
-        *Kindly provide the detailed information of the USERSTORY!!!!!*
+        ###### KINDLY PROVIDE THE DETAILED INFORMATION OF THE USERSTORY!!!!!
 
         ***(TO BE PROVIDED IN THE BELOW FORMAT ONLY)***
         ```
-        ***User Story summary:***
-        **As a** *[user concerned by the story]*, **I want** *[goal of the story]*, **so that** *[reason for the story]*.
+        ***USER STORY SUMMARY:***
+        **As a** *[USER CONCERNED BY THE STORY]*, **I want** *[GOAL OF THE STORY]*, **so that** *[REASON FOR THE STORY]*.
       
-        ***User Story description:***
-        [A detailed description of the User Story]
+        ***USER STORY DESCRIPTION:***
+        [A DETAILED DESCRIPTION OF THE USER STORY]
       
-        ***Acceptance criteria:***
-        - [ ] **Given** *[some context]*, **when** *[this action is carried out]*, **then** *[this result happens]*
-        - [ ] **Given** *[some context]*, **when** *[this action is carried out]*, **then** *[this result happens]*
-        - [ ] **Given** *[some context]*, **when** *[this action is carried out]*, **then** *[this result happens]*
+        ***ACCEPTANCE CRITERIA:***
+        - [ ] **Given** *[SOME CONTEXT]*, **when** *[THIS ACTION IS CARRIED OUT]*, **then** *[THIS RESULT HAPPENS]*
+        - [ ] **Given** *[SOME CONTEXT]*, **when** *[THIS ACTION IS CARRIED OUT]*, **then** *[THIS RESULT HAPPENS]*
+        - [ ] **Given** *[SOME CONTEXT]*, **when** *[THIS ACTION IS CARRIED OUT]*, **then** *[THIS RESULT HAPPENS]*
         ```
       placeholder: |
-        Describe the USERSTORY in the above format.
+        DESCRIBE THE USERSTORY IN THE ABOVE FORMAT.
     validations:
       required: true
   - type: markdown
@@ -84,7 +85,8 @@ body:
       label: |
         --- (TO BE REMOVED AFTER SUBMITTING THE FORM)
       description: |
-        *This will be used as a SEPARATOR in the markdown.* ***KINDLY IGNORE THIS AND DO NOT CHANGE THE VALUE.***
+        ###### THIS WILL BE USED AS A SEPARATOR IN THE MARKDOWN.
+        ***KINDLY IGNORE THIS AND DO NOT CHANGE THE VALUE.***
       value: |
         ---
     validations:
@@ -97,17 +99,37 @@ body:
     id: tasks
     attributes:
       label: |
-        Related Tasks
+        RELATED TASKS
       description: |
-        *Kindly provide the list of all the related Tasks for this USERSTORY!!!!!*
+        ###### KINDLY PROVIDE THE LIST OF ALL THE RELATED TASKS FOR THIS USERSTORY!!!!!
 
         ***(TO BE PROVIDED IN THE BELOW FORMAT ONLY)***
         ```
-        - [ ] #[Related TASK Issue No.]
-        - [ ] #[Related TASK Issue No.]
-        - [ ] #[Related TASK Issue No.]
+        - [ ] #[RELATED TASK ISSUE NO.]
+        - [ ] #[RELATED TASK ISSUE NO.]
+        - [ ] #[RELATED TASK ISSUE NO.]
         ```
       placeholder: |
-        List of related Tasks in above format.
+        LIST OF RELATED TASKS IN ABOVE FORMAT.
     validations:
       required: true
+  - type: markdown
+    attributes:
+      value: |
+        ---
+  - type: input
+    id: rtsksep
+    attributes:
+      label: |
+        --- (TO BE REMOVED AFTER SUBMITTING THE FORM)
+      description: |
+        ###### THIS WILL BE USED AS A SEPARATOR IN THE MARKDOWN.
+        ***KINDLY IGNORE THIS AND DO NOT CHANGE THE VALUE.***
+      value: |
+        ---
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: |
+        ---
