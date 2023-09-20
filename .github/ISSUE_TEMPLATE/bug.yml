@@ -115,13 +115,12 @@ body:
 
         ***(TO BE PROVIDED IN THE BELOW FORMAT ONLY)***
         ```
-        Steps to Reproduce the BUG
-        1. Step 1
-        2. Step 2
-        3. Step 3
+        1. STEP 1
+        2. STEP 2
+        3. STEP 3
         ```
       placeholder: |
-        DESCRIBE THE STEPS IN ABOVE FORMAT.
+        DESCRIBE THE STEPS IN THE ABOVE FORMAT.
     validations:
       required: true
   - type: markdown
@@ -179,7 +178,7 @@ body:
     id: log
     attributes:
       label: |
-        BUG CODE OR LOGS (IF APPLICABLE)
+        BUG CODE OR LOGS
       description: |
         ###### KINDLY PROVIDE THE CODE TO REPRODUCE OR THE LOG OUTPUT!!!!!
       placeholder: |
