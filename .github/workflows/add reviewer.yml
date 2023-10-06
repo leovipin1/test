@@ -5,10 +5,12 @@ on:
     types:
       - opened
 
-job:
+jobs:
   add-reviewer-pr:
     name: Apply PR reviewer
-      uses: leovipin1/add-reviewer-pr@master
-      with: 
-        reviewers: "adpleovipin1"
-        token: ${{ secrets.ADD_TO_PROJECT_PAT }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: leovipin1/add-reviewer-pr@master
+        with: 
+          reviewers: "adpleovipin1"
+          token: ${{ secrets.ADD_TO_PROJECT_PAT }}
