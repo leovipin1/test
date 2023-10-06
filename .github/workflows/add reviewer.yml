@@ -1,0 +1,14 @@
+name: Add Pull Request Reviewer
+
+on:
+  pull_request:
+    types:
+      - opened
+
+job:
+  add-reviewer-pr:
+    name: Apply PR reviewer
+      uses: leovipin1/add-reviewer-pr@master
+      with: 
+        reviewers: "adpleovipin1"
+        token: ${{ secrets.ADD_TO_PROJECT_PAT }}
