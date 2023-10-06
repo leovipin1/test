@@ -1,14 +1,18 @@
-name: Add Pull Request Reviewer
+name: Add Reviewers
 
 on:
   pull_request:
     types:
       - opened
 
-job:
-  add-reviewer-pr:
-    name: Apply PR reviewer
-      uses: leovipin1/add-reviewer-pr@master
-      with: 
-        reviewers: "adpleovipin1"
-        token: ${{ secrets.ADD_TO_PROJECT_PAT }}
+jobs:
+  add-reviewer:
+    name: Add Reviewers
+    runs-on: ubuntu-latest
+    steps:
+      - uses: madrapps/add-reviewers@v1
+        with:
+          token: ${{ secrets.ADD_TO_PROJECT_PAT }}
+          reviewers: adpleovipin1
+          re-request-when-approved: true
+          re-request-when-changes-requested: true
